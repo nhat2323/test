@@ -1,0 +1,1473 @@
+Wed Nov 29 19:28:29 2023
+VSocket::ReadExact : zero bytes read2
+desktopSelector::SelectHDESK : SelectHDESK to Default (bc) from bc
+vncClientThread::run : client disconnected : 192.168.0.100 (1)
+vncClientUpdateThread::Kill : kill update thread
+ --Cannot create a file when that file already exists.
+vncClientUpdateThread::run_undetached : stopping update thread
+vncClientUpdateThread::~vncClientUpdateThread : update thread gone
+vncServer::RemoveClient : removing authorised client
+vncServer::RemoveClient : deleting desktop server
+vncDesktop::~vncDesktop : ~vncDesktop 
+vncDesktop::StopInitWindowthread : ~vncDesktop::Tell initwindowthread to close 
+vncDesktop::InitWindow : OOOOOOOOOOOO called wm_quit
+ --The specified module could not be found.
+DesktopWndProc : WM_DESTROY
+vncServer::KillAuthClients : KillAuthClients() done
+ --The requested resource is in use.
+vncDesktopThread::run_undetached : quitting desktop server thread
+vncDesktopThread::run_undetached : quitting desktop server thread:SetBlockInputState
+vncDesktopThread::run_undetached : quitting desktop server thread:ClearShiftKeys
+vncDesktopThread::run_undetached : quitting desktop server thread:g_DesktopThread_running=false
+vncDesktop::ShutdownInitWindowthread : ShutdownInitWindowthread 
+vncDesktop::InitWindow : OOOOOOOOOOOO end dispatch
+vncDesktop::StopInitWindowthread : ~vncDesktop:: iniwindowthread proper closed 
+desktopSelector::SelectHDESK : SelectHDESK to Default (bc) from bc
+vncDesktopThread::run_undetached : quitting desktop server thread:m_desktop->Shutdown
+vncDesktop::ShutdownInitWindowthread : ShutdownInitWindowthread 
+desktopSelector::SelectHDESK : SelectHDESK to Default (bc) from bc
+vncDesktop::~vncDesktop : ~vncDesktop Shutdown()
+vncDesktop::~vncDesktop : ~vncDesktop m_lGridsList.clear
+Wed Nov 29 19:28:30 2023
+vncServer::RemoveClient : desktop deleted
+vncServer::RemoveClient : RemoveClient() done
+vncClient::~vncClient : ~vncClient() executing...
+vncClient::~vncClient : deleting socket
+VSocket::Close : closing socket
+Wed Nov 29 19:28:34 2023
+vncSockConnectThread::run_undetached : accepted connection from 192.168.0.100
+vncServer::AddClient : AddClient() started
+vncClient::vncClient : vncClient() executing...
+vncServer::AddClient : AddClient() done
+vncClientThread::run : client connected : 192.168.0.100 (1)
+vncClientThread::InitSocket : DSMPlugin Pointer to socket OK
+vncClientThread::InitVersion : Send protocolMsg
+vncClientThread::InitVersion : Send_OK
+vncClientThread::InitVersion : m_ms_logon set to falsevncClientThread::run : negotiated version
+Entered InitAuthenticate
+vncServer::VerifyHost : client 192.168.0.100 verifiedHost 0 prior to adjustment
+vncServer::VerifyHost : client 192.168.0.100 verifiedHost 0 after adjustment
+password authenticationvncServer::VerifyHost : client 192.168.0.100 verifiedHost 0 prior to adjustment
+vncServer::VerifyHost : client 192.168.0.100 verifiedHost 0 after adjustment
+vncClientThread::InitAuthenticate : Leaving InitAuthenticate
+vncDesktop::Init : initialising desktop handler
+vncDesktopThread::run_undetached : Hook changed 1
+vncDesktopThread::run_undetached : Hook changed 2
+vncDesktop::KillScreenSaver : KillScreenSaver...
+Wed Nov 29 19:28:35 2023
+vncDesktop::Startup : InitVideo driver Called
+ --The requested resource is in use.
+vncDesktop::Startup : Driver option enabled 
+vncDesktop::InitVideoDriver : Driver option is enabled
+ --The requested resource is in use.
+vncDesktop::InitVideoDriver : Try ddengine
+vncDesktop::InitVideoDriver : Start Mirror driver
+vncDesktop::InitVideoDriver : Driver Used
+vncDesktop::InitVideoDriver : Shared memory mapped
+vncDesktop::Startup : Break log
+vncDesktop::InitBitmap : No driver used 
+vncDesktop::InitBitmap : bitmap dimensions are 1920 x 1080
+vncDesktop::InitBitmap : created memory bitmap
+vncDesktop::InitBitmap : got bitmap format
+vncDesktop::Startup : Removing real Dib buffer and replace by driver communication buffer
+vncDesktop::StartInitWindowthread : StartInitWindowthread 
+vncDesktop::StartInitWindowthread : StartInitWindowthread default desk
+vncDesktop::InitWindow : InitWindow called
+vncDesktop::InitWindow : InitWindow:OpenInputdesktop OK
+vncDesktop::InitWindow : InitWindow:SelectHDESK to Default (550) from bc
+DesktopWndProc : wmcreate  
+vncDesktop::InitWindow : OOOOOOOOOOOO load hookdll's
+vncDesktop::InitWindow : OOOOOOOOOOOO start dispatch
+ --The specified module could not be found.
+vncDesktop::StartInitWindowthread : StartInitWindowthread started
+vncBuffer::CheckBuffer : request local buffer[8294400]
+vncBuffer::CheckBuffer : fast blits detected - using DIBsection buffer
+vncBuffer::CheckBuffer : local buffer=8294400
+vncEncodeMgr::SetEncoding : raw encoder requested
+vncEncoder::SetTranslateFunction : settranslatefunction called
+vncEncoder::SetTranslateFunction : only 8, 16 or 32 bits supported remotely - 0 requested
+vncEncoder::SetTranslateFunction : settranslatefunction called
+vncEncoder::SetTranslateFunction : no translation required
+vncDesktop::SethookMechanism : Sethook_restart_wanted hook=0 driver=1 
+vncDesktop::SethookMechanism : Hookdll status changed 
+vncEncodeMgr::CheckBuffer : request client buffer[8294412]
+vncServer::Authenticated : Authenticated() done
+vncClientThread::run : authenticated connection
+vncBuffer::CheckBuffer : request local buffer[8294400]
+vncBuffer::CheckBuffer : fast blits detected - using DIBsection buffer
+vncBuffer::CheckBuffer : local buffer=8294400
+vncClientThread::run : sent pixel format to client
+vncClientUpdateThread::Init : init update thread
+vncClientUpdateThread::run_undetached : starting update thread
+vncClientUpdateThread::EnableUpdates : disable update thread
+vncClientUpdateThread::EnableUpdates : enable/disable synced
+vncEncodeMgr::SetClientFormat : SetClientFormat called
+vncEncoder::SetTranslateFunction : settranslatefunction called
+vncEncoder::SetTranslateFunction : triple LUT used
+vncClientUpdateThread::EnableUpdates : enable update thread
+vncClientUpdateThread::EnableUpdates : enable/disable synced
+vncClientUpdateThread::EnableUpdates : disable update thread
+vncClientUpdateThread::EnableUpdates : enable/disable synced
+vncClientThread::run : Tight found
+vncEncodeMgr::SetEncoding : Tight encoder requested
+vncEncoder::SetTranslateFunction : settranslatefunction called
+vncEncoder::SetTranslateFunction : only 8, 16 or 32 bits supported remotely - 0 requested
+vncEncoder::SetTranslateFunction : settranslatefunction called
+vncEncoder::SetTranslateFunction : triple LUT used
+vncDesktopThread::run_undetached : Wait for viewer init 
+vncEncodeMgr::CheckBuffer : request client buffer[264781]
+vncClientThread::run : ZRLE found 
+vncClientThread::run : compression level requested: 0
+vncClientThread::run : image quality level requested: 5
+vncClientThread::run : LastRect protocol extension enabled
+vncClientUpdateThread::EnableUpdates : enable update thread
+vncClientUpdateThread::EnableUpdates : enable/disable synced
+vncEncoder::GetRemotePalette : remote palette data requested
+vncDesktopThread::run_undetached : Wait for viewer init 
+vncDesktopThread::run_undetached : Hook changed 
+Wed Nov 29 19:31:27 2023
+ keysym 0x61 SHORT s 65latin-1 key: keysym 97(0x61) vkCode 0x41 down 1 capslockOn 0
+ keysym 0x61 SHORT s 65latin-1 key: keysym 97(0x61) vkCode 0x41 down 0 capslockOn 0
+Wed Nov 29 19:31:39 2023
+ keysym 0x61 SHORT s 65latin-1 key: keysym 97(0x61) vkCode 0x41 down 1 capslockOn 0
+ keysym 0x61 SHORT s 65latin-1 key: keysym 97(0x61) vkCode 0x41 down 0 capslockOn 0
+Wed Nov 29 19:31:41 2023
+ keysym 0x70 SHORT s 80latin-1 key: keysym 112(0x70) vkCode 0x50 down 1 capslockOn 0
+ keysym 0x70 SHORT s 80latin-1 key: keysym 112(0x70) vkCode 0x50 down 0 capslockOn 0
+Wed Nov 29 19:31:42 2023
+ keysym 0x74 SHORT s 84latin-1 key: keysym 116(0x74) vkCode 0x54 down 1 capslockOn 0
+ keysym 0x74 SHORT s 84latin-1 key: keysym 116(0x74) vkCode 0x54 down 0 capslockOn 0
+Wed Nov 29 19:31:43 2023
+ keysym 0x20 SHORT s 32latin-1 key: keysym 32(0x20) vkCode 0x20 down 1 capslockOn 0
+ keysym 0x20 SHORT s 32latin-1 key: keysym 32(0x20) vkCode 0x20 down 0 capslockOn 0
+Wed Nov 29 19:31:54 2023
+ keysym 0x69 SHORT s 73latin-1 key: keysym 105(0x69) vkCode 0x49 down 1 capslockOn 0
+ keysym 0x69 SHORT s 73latin-1 key: keysym 105(0x69) vkCode 0x49 down 0 capslockOn 0
+Wed Nov 29 19:31:59 2023
+ keysym 0x6e SHORT s 78latin-1 key: keysym 110(0x6e) vkCode 0x4e down 1 capslockOn 0
+ keysym 0x6e SHORT s 78latin-1 key: keysym 110(0x6e) vkCode 0x4e down 0 capslockOn 0
+Wed Nov 29 19:32:00 2023
+ keysym 0x73 SHORT s 83latin-1 key: keysym 115(0x73) vkCode 0x53 down 1 capslockOn 0
+ keysym 0x73 SHORT s 83latin-1 key: keysym 115(0x73) vkCode 0x53 down 0 capslockOn 0
+Wed Nov 29 19:32:01 2023
+ keysym 0x74 SHORT s 84latin-1 key: keysym 116(0x74) vkCode 0x54 down 1 capslockOn 0
+ keysym 0x74 SHORT s 84latin-1 key: keysym 116(0x74) vkCode 0x54 down 0 capslockOn 0
+ keysym 0x61 SHORT s 65latin-1 key: keysym 97(0x61) vkCode 0x41 down 1 capslockOn 0
+ keysym 0x61 SHORT s 65latin-1 key: keysym 97(0x61) vkCode 0x41 down 0 capslockOn 0
+ keysym 0x6c SHORT s 76latin-1 key: keysym 108(0x6c) vkCode 0x4c down 1 capslockOn 0
+ keysym 0x6c SHORT s 76latin-1 key: keysym 108(0x6c) vkCode 0x4c down 0 capslockOn 0
+ keysym 0x6c SHORT s 76latin-1 key: keysym 108(0x6c) vkCode 0x4c down 1 capslockOn 0
+ keysym 0x6c SHORT s 76latin-1 key: keysym 108(0x6c) vkCode 0x4c down 0 capslockOn 0
+Wed Nov 29 19:32:02 2023
+ keysym 0x20 SHORT s 32latin-1 key: keysym 32(0x20) vkCode 0x20 down 1 capslockOn 0
+ keysym 0x20 SHORT s 32latin-1 key: keysym 32(0x20) vkCode 0x20 down 0 capslockOn 0
+Wed Nov 29 19:32:03 2023
+ keysym 0x73 SHORT s 83latin-1 key: keysym 115(0x73) vkCode 0x53 down 1 capslockOn 0
+ keysym 0x73 SHORT s 83latin-1 key: keysym 115(0x73) vkCode 0x53 down 0 capslockOn 0
+Wed Nov 29 19:32:04 2023
+ keysym 0x73 SHORT s 83latin-1 key: keysym 115(0x73) vkCode 0x53 down 1 capslockOn 0
+ keysym 0x73 SHORT s 83latin-1 key: keysym 115(0x73) vkCode 0x53 down 0 capslockOn 0
+ keysym 0x68 SHORT s 72latin-1 key: keysym 104(0x68) vkCode 0x48 down 1 capslockOn 0
+ keysym 0x68 SHORT s 72latin-1 key: keysym 104(0x68) vkCode 0x48 down 0 capslockOn 0
+Wed Nov 29 19:32:05 2023
+ keysym 0xff08 keysym 0xff08 keysym 0xff08 keysym 0xff08Wed Nov 29 19:32:06 2023
+ keysym 0xff08 keysym 0xff08 keysym 0x6f SHORT s 79latin-1 key: keysym 111(0x6f) vkCode 0x4f down 1 capslockOn 0
+ keysym 0x6f SHORT s 79latin-1 key: keysym 111(0x6f) vkCode 0x4f down 0 capslockOn 0
+Wed Nov 29 19:32:07 2023
+ keysym 0x70 SHORT s 80latin-1 key: keysym 112(0x70) vkCode 0x50 down 1 capslockOn 0
+ keysym 0x70 SHORT s 80latin-1 key: keysym 112(0x70) vkCode 0x50 down 0 capslockOn 0
+ keysym 0x65 SHORT s 69latin-1 key: keysym 101(0x65) vkCode 0x45 down 1 capslockOn 0
+ keysym 0x65 SHORT s 69latin-1 key: keysym 101(0x65) vkCode 0x45 down 0 capslockOn 0
+Wed Nov 29 19:32:08 2023
+ keysym 0x6e SHORT s 78latin-1 key: keysym 110(0x6e) vkCode 0x4e down 1 capslockOn 0
+ keysym 0x6e SHORT s 78latin-1 key: keysym 110(0x6e) vkCode 0x4e down 0 capslockOn 0
+ keysym 0x73 SHORT s 83latin-1 key: keysym 115(0x73) vkCode 0x53 down 1 capslockOn 0
+ keysym 0x73 SHORT s 83latin-1 key: keysym 115(0x73) vkCode 0x53 down 0 capslockOn 0
+ keysym 0x73 SHORT s 83latin-1 key: keysym 115(0x73) vkCode 0x53 down 1 capslockOn 0
+ keysym 0x73 SHORT s 83latin-1 key: keysym 115(0x73) vkCode 0x53 down 0 capslockOn 0
+Wed Nov 29 19:32:09 2023
+ keysym 0x68 SHORT s 72latin-1 key: keysym 104(0x68) vkCode 0x48 down 1 capslockOn 0
+ keysym 0x68 SHORT s 72latin-1 key: keysym 104(0x68) vkCode 0x48 down 0 capslockOn 0
+Wed Nov 29 19:32:10 2023
+ keysym 0xff0d keysym 0xff0dWed Nov 29 19:32:28 2023
+ keysym 0x74 SHORT s 84latin-1 key: keysym 116(0x74) vkCode 0x54 down 1 capslockOn 0
+ keysym 0x74 SHORT s 84latin-1 key: keysym 116(0x74) vkCode 0x54 down 0 capslockOn 0
+Wed Nov 29 19:32:29 2023
+ keysym 0xff08 keysym 0xff08Wed Nov 29 19:32:30 2023
+ keysym 0x79 SHORT s 89latin-1 key: keysym 121(0x79) vkCode 0x59 down 1 capslockOn 0
+ keysym 0x79 SHORT s 89latin-1 key: keysym 121(0x79) vkCode 0x59 down 0 capslockOn 0
+Wed Nov 29 19:32:31 2023
+ keysym 0xff0d keysym 0xff0dWed Nov 29 19:32:56 2023
+ keysym 0x65 SHORT s 69latin-1 key: keysym 101(0x65) vkCode 0x45 down 1 capslockOn 0
+ keysym 0x65 SHORT s 69latin-1 key: keysym 101(0x65) vkCode 0x45 down 0 capslockOn 0
+Wed Nov 29 19:32:57 2023
+ keysym 0x78 SHORT s 88latin-1 key: keysym 120(0x78) vkCode 0x58 down 1 capslockOn 0
+ keysym 0x78 SHORT s 88latin-1 key: keysym 120(0x78) vkCode 0x58 down 0 capslockOn 0
+ keysym 0x69 SHORT s 73latin-1 key: keysym 105(0x69) vkCode 0x49 down 1 capslockOn 0
+ keysym 0x69 SHORT s 73latin-1 key: keysym 105(0x69) vkCode 0x49 down 0 capslockOn 0
+Wed Nov 29 19:32:58 2023
+ keysym 0x74 SHORT s 84latin-1 key: keysym 116(0x74) vkCode 0x54 down 1 capslockOn 0
+ keysym 0x74 SHORT s 84latin-1 key: keysym 116(0x74) vkCode 0x54 down 0 capslockOn 0
+Wed Nov 29 19:32:59 2023
+ keysym 0xff0d keysym 0xff0dWed Nov 29 19:33:01 2023
+ keysym 0xff08 keysym 0xff08Wed Nov 29 19:33:03 2023
+ keysym 0x69 SHORT s 73latin-1 key: keysym 105(0x69) vkCode 0x49 down 1 capslockOn 0
+ keysym 0x69 SHORT s 73latin-1 key: keysym 105(0x69) vkCode 0x49 down 0 capslockOn 0
+ keysym 0x70 SHORT s 80latin-1 key: keysym 112(0x70) vkCode 0x50 down 1 capslockOn 0
+ keysym 0x70 SHORT s 80latin-1 key: keysym 112(0x70) vkCode 0x50 down 0 capslockOn 0
+ keysym 0x20 SHORT s 32latin-1 key: keysym 32(0x20) vkCode 0x20 down 1 capslockOn 0
+ keysym 0x20 SHORT s 32latin-1 key: keysym 32(0x20) vkCode 0x20 down 0 capslockOn 0
+Wed Nov 29 19:33:04 2023
+ keysym 0x61 SHORT s 65latin-1 key: keysym 97(0x61) vkCode 0x41 down 1 capslockOn 0
+ keysym 0x61 SHORT s 65latin-1 key: keysym 97(0x61) vkCode 0x41 down 0 capslockOn 0
+ keysym 0x64 SHORT s 68latin-1 key: keysym 100(0x64) vkCode 0x44 down 1 capslockOn 0
+ keysym 0x64 SHORT s 68latin-1 key: keysym 100(0x64) vkCode 0x44 down 0 capslockOn 0
+ keysym 0x64 SHORT s 68latin-1 key: keysym 100(0x64) vkCode 0x44 down 1 capslockOn 0
+ keysym 0x64 SHORT s 68latin-1 key: keysym 100(0x64) vkCode 0x44 down 0 capslockOn 0
+Wed Nov 29 19:33:06 2023
+ keysym 0xff0d keysym 0xff0dWed Nov 29 19:37:32 2023
+ keysym 0x75 SHORT s 85latin-1 key: keysym 117(0x75) vkCode 0x55 down 1 capslockOn 0
+ keysym 0x75 SHORT s 85latin-1 key: keysym 117(0x75) vkCode 0x55 down 0 capslockOn 0
+Wed Nov 29 19:37:33 2023
+ keysym 0x6d SHORT s 77latin-1 key: keysym 109(0x6d) vkCode 0x4d down 1 capslockOn 0
+ keysym 0x6d SHORT s 77latin-1 key: keysym 109(0x6d) vkCode 0x4d down 0 capslockOn 0
+Wed Nov 29 19:37:34 2023
+ keysym 0xff08 keysym 0xff08 keysym 0x6e SHORT s 78latin-1 key: keysym 110(0x6e) vkCode 0x4e down 1 capslockOn 0
+ keysym 0x6e SHORT s 78latin-1 key: keysym 110(0x6e) vkCode 0x4e down 0 capslockOn 0
+Wed Nov 29 19:37:35 2023
+ keysym 0x61 SHORT s 65latin-1 key: keysym 97(0x61) vkCode 0x41 down 1 capslockOn 0
+ keysym 0x61 SHORT s 65latin-1 key: keysym 97(0x61) vkCode 0x41 down 0 capslockOn 0
+ keysym 0x6d SHORT s 77latin-1 key: keysym 109(0x6d) vkCode 0x4d down 1 capslockOn 0
+ keysym 0x6d SHORT s 77latin-1 key: keysym 109(0x6d) vkCode 0x4d down 0 capslockOn 0
+Wed Nov 29 19:37:36 2023
+ keysym 0x65 SHORT s 69latin-1 key: keysym 101(0x65) vkCode 0x45 down 1 capslockOn 0
+ keysym 0x65 SHORT s 69latin-1 key: keysym 101(0x65) vkCode 0x45 down 0 capslockOn 0
+Wed Nov 29 19:37:38 2023
+ keysym 0x20 SHORT s 32latin-1 key: keysym 32(0x20) vkCode 0x20 down 1 capslockOn 0
+ keysym 0x20 SHORT s 32latin-1 key: keysym 32(0x20) vkCode 0x20 down 0 capslockOn 0
+Wed Nov 29 19:37:39 2023
+ keysym 0x2d SHORT s 189latin-1 key: keysym 45(0x2d) vkCode 0xbd down 1 capslockOn 0
+ keysym 0x2d SHORT s 189latin-1 key: keysym 45(0x2d) vkCode 0xbd down 0 capslockOn 0
+Wed Nov 29 19:37:40 2023
+ keysym 0x61 SHORT s 65latin-1 key: keysym 97(0x61) vkCode 0x41 down 1 capslockOn 0
+ keysym 0x61 SHORT s 65latin-1 key: keysym 97(0x61) vkCode 0x41 down 0 capslockOn 0
+Wed Nov 29 19:37:41 2023
+ keysym 0xff0d keysym 0xff0dWed Nov 29 19:37:49 2023
+ keysym 0x6e SHORT s 78latin-1 key: keysym 110(0x6e) vkCode 0x4e down 1 capslockOn 0
+ keysym 0x6e SHORT s 78latin-1 key: keysym 110(0x6e) vkCode 0x4e down 0 capslockOn 0
+Wed Nov 29 19:37:50 2023
+ keysym 0x65 SHORT s 69latin-1 key: keysym 101(0x65) vkCode 0x45 down 1 capslockOn 0
+ keysym 0x65 SHORT s 69latin-1 key: keysym 101(0x65) vkCode 0x45 down 0 capslockOn 0
+ keysym 0x6f SHORT s 79latin-1 key: keysym 111(0x6f) vkCode 0x4f down 1 capslockOn 0
+ keysym 0x6f SHORT s 79latin-1 key: keysym 111(0x6f) vkCode 0x4f down 0 capslockOn 0
+ keysym 0x66 SHORT s 70latin-1 key: keysym 102(0x66) vkCode 0x46 down 1 capslockOn 0
+ keysym 0x66 SHORT s 70latin-1 key: keysym 102(0x66) vkCode 0x46 down 0 capslockOn 0
+Wed Nov 29 19:37:51 2023
+ keysym 0x65 SHORT s 69latin-1 key: keysym 101(0x65) vkCode 0x45 down 1 capslockOn 0
+ keysym 0x65 SHORT s 69latin-1 key: keysym 101(0x65) vkCode 0x45 down 0 capslockOn 0
+ keysym 0x74 SHORT s 84latin-1 key: keysym 116(0x74) vkCode 0x54 down 1 capslockOn 0
+ keysym 0x74 SHORT s 84latin-1 key: keysym 116(0x74) vkCode 0x54 down 0 capslockOn 0
+Wed Nov 29 19:37:52 2023
+ keysym 0x63 SHORT s 67latin-1 key: keysym 99(0x63) vkCode 0x43 down 1 capslockOn 0
+ keysym 0x63 SHORT s 67latin-1 key: keysym 99(0x63) vkCode 0x43 down 0 capslockOn 0
+ keysym 0x68 SHORT s 72latin-1 key: keysym 104(0x68) vkCode 0x48 down 1 capslockOn 0
+ keysym 0x68 SHORT s 72latin-1 key: keysym 104(0x68) vkCode 0x48 down 0 capslockOn 0
+Wed Nov 29 19:37:53 2023
+ keysym 0xff0d keysym 0xff0dWed Nov 29 19:38:26 2023
+VSocket::ReadExact : zero bytes read2
+desktopSelector::SelectHDESK : SelectHDESK to Default (bc) from bc
+vncClientThread::run : client disconnected : 192.168.0.100 (1)
+vncClientUpdateThread::Kill : kill update thread
+ --Cannot create a file when that file already exists.
+vncClientUpdateThread::run_undetached : stopping update thread
+vncClientUpdateThread::~vncClientUpdateThread : update thread gone
+vncServer::RemoveClient : removing authorised client
+vncServer::RemoveClient : deleting desktop server
+vncDesktop::~vncDesktop : ~vncDesktop 
+vncDesktop::StopInitWindowthread : ~vncDesktop::Tell initwindowthread to close 
+vncDesktop::InitWindow : OOOOOOOOOOOO called wm_quit
+DesktopWndProc : WM_DESTROY
+vncServer::KillAuthClients : KillAuthClients() done
+ --The requested resource is in use.
+vncDesktopThread::run_undetached : quitting desktop server thread
+vncDesktopThread::run_undetached : quitting desktop server thread:SetBlockInputState
+vncDesktopThread::run_undetached : quitting desktop server thread:ClearShiftKeys
+vncDesktopThread::run_undetached : quitting desktop server thread:g_DesktopThread_running=false
+vncDesktop::ShutdownInitWindowthread : ShutdownInitWindowthread 
+vncDesktop::InitWindow : OOOOOOOOOOOO end dispatch
+vncDesktop::StopInitWindowthread : ~vncDesktop:: iniwindowthread proper closed 
+desktopSelector::SelectHDESK : SelectHDESK to Default (bc) from bc
+vncDesktopThread::run_undetached : quitting desktop server thread:m_desktop->Shutdown
+vncDesktop::ShutdownInitWindowthread : ShutdownInitWindowthread 
+desktopSelector::SelectHDESK : SelectHDESK to Default (bc) from bc
+vncDesktop::~vncDesktop : ~vncDesktop Shutdown()
+vncDesktop::~vncDesktop : ~vncDesktop m_lGridsList.clear
+Wed Nov 29 19:38:28 2023
+vncServer::RemoveClient : desktop deleted
+vncServer::RemoveClient : RemoveClient() done
+vncClient::~vncClient : ~vncClient() executing...
+vncClient::~vncClient : deleting socket
+VSocket::Close : closing socket
+Wed Nov 29 19:38:42 2023
+vncSockConnectThread::run_undetached : accepted connection from 192.168.0.100
+vncServer::AddClient : AddClient() started
+vncClient::vncClient : vncClient() executing...
+vncServer::AddClient : AddClient() done
+vncClientThread::run : client connected : 192.168.0.100 (1)
+vncClientThread::InitSocket : DSMPlugin Pointer to socket OK
+vncClientThread::InitVersion : Send protocolMsg
+vncClientThread::InitVersion : Send_OK
+vncClientThread::InitVersion : m_ms_logon set to falsevncClientThread::run : negotiated version
+Entered InitAuthenticate
+vncServer::VerifyHost : client 192.168.0.100 verifiedHost 0 prior to adjustment
+vncServer::VerifyHost : client 192.168.0.100 verifiedHost 0 after adjustment
+password authenticationvncServer::VerifyHost : client 192.168.0.100 verifiedHost 0 prior to adjustment
+vncServer::VerifyHost : client 192.168.0.100 verifiedHost 0 after adjustment
+vncClientThread::InitAuthenticate : Leaving InitAuthenticate
+vncDesktop::Init : initialising desktop handler
+vncDesktopThread::run_undetached : Hook changed 1
+vncDesktopThread::run_undetached : Hook changed 2
+vncDesktop::KillScreenSaver : KillScreenSaver...
+Wed Nov 29 19:38:43 2023
+vncDesktop::Startup : InitVideo driver Called
+ --The requested resource is in use.
+vncDesktop::Startup : Driver option enabled 
+vncDesktop::InitVideoDriver : Driver option is enabled
+ --The requested resource is in use.
+vncDesktop::InitVideoDriver : Try ddengine
+vncDesktop::InitVideoDriver : Start Mirror driver
+vncDesktop::InitVideoDriver : Driver Used
+vncDesktop::InitVideoDriver : Shared memory mapped
+vncDesktop::Startup : Break log
+vncDesktop::InitBitmap : No driver used 
+vncDesktop::InitBitmap : bitmap dimensions are 1920 x 1080
+vncDesktop::InitBitmap : created memory bitmap
+vncDesktop::InitBitmap : got bitmap format
+vncDesktop::Startup : Removing real Dib buffer and replace by driver communication buffer
+vncDesktop::StartInitWindowthread : StartInitWindowthread 
+vncDesktop::StartInitWindowthread : StartInitWindowthread default desk
+vncDesktop::InitWindow : InitWindow called
+vncDesktop::InitWindow : InitWindow:OpenInputdesktop OK
+vncDesktop::InitWindow : InitWindow:SelectHDESK to Default (550) from bc
+DesktopWndProc : wmcreate  
+vncDesktop::InitWindow : OOOOOOOOOOOO load hookdll's
+vncDesktop::InitWindow : OOOOOOOOOOOO start dispatch
+ --The specified module could not be found.
+vncDesktop::StartInitWindowthread : StartInitWindowthread started
+vncBuffer::CheckBuffer : request local buffer[8294400]
+vncBuffer::CheckBuffer : fast blits detected - using DIBsection buffer
+vncBuffer::CheckBuffer : local buffer=8294400
+vncDesktop::SethookMechanism : Sethook_restart_wanted hook=0 driver=1 
+vncDesktop::SethookMechanism : Hookdll status changed 
+vncEncodeMgr::SetEncoding : raw encoder requested
+vncEncoder::SetTranslateFunction : settranslatefunction called
+vncEncoder::SetTranslateFunction : only 8, 16 or 32 bits supported remotely - 0 requested
+vncEncoder::SetTranslateFunction : settranslatefunction called
+vncEncoder::SetTranslateFunction : no translation required
+vncEncodeMgr::CheckBuffer : request client buffer[8294412]
+vncServer::Authenticated : Authenticated() done
+vncClientThread::run : authenticated connection
+vncBuffer::CheckBuffer : request local buffer[8294400]
+vncBuffer::CheckBuffer : fast blits detected - using DIBsection buffer
+vncBuffer::CheckBuffer : local buffer=8294400
+vncClientThread::run : sent pixel format to client
+vncClientUpdateThread::Init : init update thread
+vncClientUpdateThread::run_undetached : starting update thread
+vncClientUpdateThread::EnableUpdates : disable update thread
+vncClientUpdateThread::EnableUpdates : enable/disable synced
+vncEncodeMgr::SetClientFormat : SetClientFormat called
+vncEncoder::SetTranslateFunction : settranslatefunction called
+vncEncoder::SetTranslateFunction : triple LUT used
+vncClientUpdateThread::EnableUpdates : enable update thread
+vncClientUpdateThread::EnableUpdates : enable/disable synced
+vncClientUpdateThread::EnableUpdates : disable update thread
+vncClientUpdateThread::EnableUpdates : enable/disable synced
+vncClientThread::run : Tight found
+vncEncodeMgr::SetEncoding : Tight encoder requested
+vncEncoder::SetTranslateFunction : settranslatefunction called
+vncEncoder::SetTranslateFunction : only 8, 16 or 32 bits supported remotely - 0 requested
+vncEncoder::SetTranslateFunction : settranslatefunction called
+vncEncoder::SetTranslateFunction : triple LUT used
+vncDesktopThread::run_undetached : Wait for viewer init 
+vncEncodeMgr::CheckBuffer : request client buffer[264781]
+vncClientThread::run : ZRLE found 
+vncClientThread::run : compression level requested: 0
+vncClientThread::run : image quality level requested: 5
+vncClientThread::run : LastRect protocol extension enabled
+vncClientUpdateThread::EnableUpdates : enable update thread
+vncClientUpdateThread::EnableUpdates : enable/disable synced
+vncEncoder::GetRemotePalette : remote palette data requested
+vncDesktopThread::run_undetached : Wait for viewer init 
+vncDesktopThread::run_undetached : Hook changed 
+Wed Nov 29 19:38:45 2023
+ keysym 0xff1bWed Nov 29 19:38:46 2023
+VSocket::ReadExact : zero bytes read2
+desktopSelector::SelectHDESK : SelectHDESK to Default (bc) from bc
+vncClientThread::run : client disconnected : 192.168.0.100 (1)
+vncClientUpdateThread::Kill : kill update thread
+ --Cannot create a file when that file already exists.
+vncClientUpdateThread::run_undetached : stopping update thread
+vncClientUpdateThread::~vncClientUpdateThread : update thread gone
+vncServer::RemoveClient : removing authorised client
+vncServer::RemoveClient : deleting desktop server
+vncDesktop::~vncDesktop : ~vncDesktop 
+vncDesktop::StopInitWindowthread : ~vncDesktop::Tell initwindowthread to close 
+vncDesktop::InitWindow : OOOOOOOOOOOO called wm_quit
+DesktopWndProc : WM_DESTROY
+vncServer::KillAuthClients : KillAuthClients() done
+ --The requested resource is in use.
+vncDesktopThread::run_undetached : quitting desktop server thread
+vncDesktopThread::run_undetached : quitting desktop server thread:SetBlockInputState
+vncDesktopThread::run_undetached : quitting desktop server thread:ClearShiftKeys
+vncDesktopThread::run_undetached : quitting desktop server thread:g_DesktopThread_running=false
+vncDesktop::ShutdownInitWindowthread : ShutdownInitWindowthread 
+vncDesktop::InitWindow : OOOOOOOOOOOO end dispatch
+vncDesktop::StopInitWindowthread : ~vncDesktop:: iniwindowthread proper closed 
+desktopSelector::SelectHDESK : SelectHDESK to Default (bc) from bc
+vncDesktopThread::run_undetached : quitting desktop server thread:m_desktop->Shutdown
+vncDesktop::ShutdownInitWindowthread : ShutdownInitWindowthread 
+desktopSelector::SelectHDESK : SelectHDESK to Default (bc) from bc
+vncDesktop::~vncDesktop : ~vncDesktop Shutdown()
+vncDesktop::~vncDesktop : ~vncDesktop m_lGridsList.clear
+Wed Nov 29 19:38:47 2023
+vncServer::RemoveClient : desktop deleted
+vncServer::RemoveClient : RemoveClient() done
+vncClient::~vncClient : ~vncClient() executing...
+vncClient::~vncClient : deleting socket
+VSocket::Close : closing socket
+Wed Nov 29 20:12:11 2023
+vncSockConnectThread::run_undetached : accepted connection from 192.168.0.104
+vncServer::AddClient : AddClient() started
+vncClient::vncClient : vncClient() executing...
+vncServer::AddClient : AddClient() done
+vncClientThread::run : client connected : 192.168.0.104 (1)
+vncClientThread::InitSocket : DSMPlugin Pointer to socket OK
+vncClientThread::InitVersion : Send protocolMsg
+vncClientThread::InitVersion : Send_OK
+vncClientThread::InitVersion : m_ms_logon set to falsevncClientThread::run : negotiated version
+Entered InitAuthenticate
+vncServer::VerifyHost : client 192.168.0.104 verifiedHost 0 prior to adjustment
+vncServer::VerifyHost : client 192.168.0.104 verifiedHost 0 after adjustment
+vncClientThread::CheckLoopBack : loopback connection attempted - client accepted
+password authenticationWed Nov 29 20:12:16 2023
+vncServer::VerifyHost : client 192.168.0.104 verifiedHost 0 prior to adjustment
+vncServer::VerifyHost : client 192.168.0.104 verifiedHost 0 after adjustment
+vncClientThread::InitAuthenticate : Leaving InitAuthenticate
+vncDesktop::Init : initialising desktop handler
+vncDesktopThread::run_undetached : Hook changed 1
+vncDesktopThread::run_undetached : Hook changed 2
+vncDesktop::KillScreenSaver : KillScreenSaver...
+vncDesktop::Startup : InitVideo driver Called
+ --The requested resource is in use.
+vncDesktop::Startup : Driver option enabled 
+vncDesktop::InitVideoDriver : Driver option is enabled
+ --The requested resource is in use.
+vncDesktop::InitVideoDriver : Try ddengine
+vncDesktop::InitVideoDriver : Start Mirror driver
+vncDesktop::InitVideoDriver : Driver Used
+vncDesktop::InitVideoDriver : Shared memory mapped
+vncDesktop::Startup : Break log
+Wed Nov 29 20:12:17 2023
+vncDesktop::InitBitmap : No driver used 
+vncDesktop::InitBitmap : bitmap dimensions are 1920 x 1080
+vncDesktop::InitBitmap : created memory bitmap
+vncDesktop::InitBitmap : got bitmap format
+vncDesktop::Startup : Removing real Dib buffer and replace by driver communication buffer
+vncDesktop::StartInitWindowthread : StartInitWindowthread 
+vncDesktop::StartInitWindowthread : StartInitWindowthread default desk
+vncDesktop::InitWindow : InitWindow called
+vncDesktop::InitWindow : InitWindow:OpenInputdesktop OK
+vncDesktop::InitWindow : InitWindow:SelectHDESK to Default (6ec) from bc
+DesktopWndProc : wmcreate  
+vncDesktop::InitWindow : OOOOOOOOOOOO load hookdll's
+vncDesktop::InitWindow : OOOOOOOOOOOO start dispatch
+ --The specified module could not be found.
+vncDesktop::StartInitWindowthread : StartInitWindowthread started
+vncBuffer::CheckBuffer : request local buffer[8294400]
+vncBuffer::CheckBuffer : fast blits detected - using DIBsection buffer
+vncBuffer::CheckBuffer : local buffer=8294400
+vncDesktop::SethookMechanism : Sethook_restart_wanted hook=0 driver=1 
+vncDesktop::SethookMechanism : Hookdll status changed 
+vncEncodeMgr::SetEncoding : raw encoder requested
+vncEncoder::SetTranslateFunction : settranslatefunction called
+vncEncoder::SetTranslateFunction : only 8, 16 or 32 bits supported remotely - 0 requested
+vncEncoder::SetTranslateFunction : settranslatefunction called
+vncEncoder::SetTranslateFunction : no translation required
+vncEncodeMgr::CheckBuffer : request client buffer[8294412]
+vncServer::Authenticated : Authenticated() done
+vncClientThread::run : authenticated connection
+vncBuffer::CheckBuffer : request local buffer[8294400]
+vncBuffer::CheckBuffer : fast blits detected - using DIBsection buffer
+vncBuffer::CheckBuffer : local buffer=8294400
+vncClientThread::run : sent pixel format to client
+vncClientUpdateThread::Init : init update thread
+vncClientUpdateThread::run_undetached : starting update thread
+vncClientUpdateThread::EnableUpdates : disable update thread
+vncClientUpdateThread::EnableUpdates : enable/disable synced
+vncClientThread::run : Tight found
+vncEncodeMgr::SetEncoding : Tight encoder requested
+vncEncoder::SetTranslateFunction : settranslatefunction called
+vncEncoder::SetTranslateFunction : only 8, 16 or 32 bits supported remotely - 0 requested
+vncEncoder::SetTranslateFunction : settranslatefunction called
+vncEncoder::SetTranslateFunction : no translation required
+vncDesktopThread::run_undetached : Wait for viewer init 
+vncEncodeMgr::CheckBuffer : request client buffer[264781]
+vncClientThread::run : ZRLE found 
+vncClientThread::run : image quality level requested: 6
+vncClientThread::run : LastRect protocol extension enabled
+vncClientThread::run : PointerPos protocol extension enabled
+vncClientThread::run : Full-color cursor shape updates enabled
+vncClientUpdateThread::EnableUpdates : enable update thread
+vncClientUpdateThread::EnableUpdates : enable/disable synced
+vncDesktopThread::run_undetached : Wait for viewer init 
+vncDesktopThread::run_undetached : Hook changed 
+Wed Nov 29 20:12:52 2023
+VSocket::ReadExact : zero bytes read2
+desktopSelector::SelectHDESK : SelectHDESK to Default (bc) from bc
+vncClientThread::run : client disconnected : 192.168.0.104 (1)
+vncClientUpdateThread::Kill : kill update thread
+ --Cannot create a file when that file already exists.
+vncClientUpdateThread::run_undetached : stopping update thread
+vncClientUpdateThread::~vncClientUpdateThread : update thread gone
+vncServer::RemoveClient : removing authorised client
+vncServer::RemoveClient : deleting desktop server
+vncDesktop::~vncDesktop : ~vncDesktop 
+vncDesktop::StopInitWindowthread : ~vncDesktop::Tell initwindowthread to close 
+vncDesktop::InitWindow : OOOOOOOOOOOO called wm_quit
+DesktopWndProc : WM_DESTROY
+ --Invalid window handle.
+vncDesktop::InitWindow : OOOOOOOOOOOO end dispatch
+vncDesktop::StopInitWindowthread : ~vncDesktop:: iniwindowthread proper closed 
+vncServer::KillAuthClients : KillAuthClients() done
+ --The requested resource is in use.
+vncDesktopThread::run_undetached : quitting desktop server thread
+vncDesktopThread::run_undetached : quitting desktop server thread:SetBlockInputState
+vncDesktopThread::run_undetached : quitting desktop server thread:ClearShiftKeys
+vncDesktopThread::run_undetached : quitting desktop server thread:g_DesktopThread_running=false
+vncDesktop::ShutdownInitWindowthread : ShutdownInitWindowthread 
+desktopSelector::SelectHDESK : SelectHDESK to Default (bc) from bc
+vncDesktopThread::run_undetached : quitting desktop server thread:m_desktop->Shutdown
+vncDesktop::ShutdownInitWindowthread : ShutdownInitWindowthread 
+desktopSelector::SelectHDESK : SelectHDESK to Default (bc) from bc
+vncDesktop::~vncDesktop : ~vncDesktop Shutdown()
+vncDesktop::~vncDesktop : ~vncDesktop m_lGridsList.clear
+Wed Nov 29 20:12:53 2023
+vncServer::RemoveClient : desktop deleted
+vncServer::RemoveClient : RemoveClient() done
+vncClient::~vncClient : ~vncClient() executing...
+vncClient::~vncClient : deleting socket
+VSocket::Close : closing socket
+Wed Nov 29 20:12:59 2023
+vncSockConnectThread::run_undetached : accepted connection from 192.168.0.104
+vncServer::AddClient : AddClient() started
+vncClient::vncClient : vncClient() executing...
+vncServer::AddClient : AddClient() done
+vncClientThread::run : client connected : 192.168.0.104 (1)
+vncClientThread::InitSocket : DSMPlugin Pointer to socket OK
+vncClientThread::InitVersion : Send protocolMsg
+vncClientThread::InitVersion : Send_OK
+vncClientThread::InitVersion : m_ms_logon set to falsevncClientThread::run : negotiated version
+Entered InitAuthenticate
+vncServer::VerifyHost : client 192.168.0.104 verifiedHost 0 prior to adjustment
+vncServer::VerifyHost : client 192.168.0.104 verifiedHost 0 after adjustment
+vncClientThread::CheckLoopBack : loopback connection attempted - client accepted
+password authenticationWed Nov 29 20:13:05 2023
+vncServer::VerifyHost : client 192.168.0.104 verifiedHost 0 prior to adjustment
+vncServer::VerifyHost : client 192.168.0.104 verifiedHost 0 after adjustment
+vncClientThread::InitAuthenticate : Leaving InitAuthenticate
+vncDesktop::Init : initialising desktop handler
+vncDesktopThread::run_undetached : Hook changed 1
+vncDesktopThread::run_undetached : Hook changed 2
+vncDesktop::KillScreenSaver : KillScreenSaver...
+vncDesktop::Startup : InitVideo driver Called
+ --The requested resource is in use.
+vncDesktop::Startup : Driver option enabled 
+vncDesktop::InitVideoDriver : Driver option is enabled
+ --The requested resource is in use.
+vncDesktop::InitVideoDriver : Try ddengine
+vncDesktop::InitVideoDriver : Start Mirror driver
+vncDesktop::InitVideoDriver : Driver Used
+vncDesktop::InitVideoDriver : Shared memory mapped
+vncDesktop::Startup : Break log
+vncDesktop::InitBitmap : No driver used 
+vncDesktop::InitBitmap : bitmap dimensions are 1920 x 1080
+vncDesktop::InitBitmap : created memory bitmap
+vncDesktop::InitBitmap : got bitmap format
+vncDesktop::Startup : Removing real Dib buffer and replace by driver communication buffer
+vncDesktop::StartInitWindowthread : StartInitWindowthread 
+vncDesktop::StartInitWindowthread : StartInitWindowthread default desk
+vncDesktop::InitWindow : InitWindow called
+vncDesktop::InitWindow : InitWindow:OpenInputdesktop OK
+vncDesktop::InitWindow : InitWindow:SelectHDESK to Default (6b0) from bc
+DesktopWndProc : wmcreate  
+vncDesktop::InitWindow : OOOOOOOOOOOO load hookdll's
+vncDesktop::InitWindow : OOOOOOOOOOOO start dispatch
+ --The specified module could not be found.
+vncDesktop::StartInitWindowthread : StartInitWindowthread started
+vncBuffer::CheckBuffer : request local buffer[8294400]
+vncBuffer::CheckBuffer : fast blits detected - using DIBsection buffer
+vncBuffer::CheckBuffer : local buffer=8294400
+vncDesktop::SethookMechanism : Sethook_restart_wanted hook=0 driver=1 
+vncDesktop::SethookMechanism : Hookdll status changed 
+vncEncodeMgr::SetEncoding : raw encoder requested
+vncEncoder::SetTranslateFunction : settranslatefunction called
+vncEncoder::SetTranslateFunction : only 8, 16 or 32 bits supported remotely - 0 requested
+vncEncoder::SetTranslateFunction : settranslatefunction called
+vncEncoder::SetTranslateFunction : no translation required
+Wed Nov 29 20:13:06 2023
+vncEncodeMgr::CheckBuffer : request client buffer[8294412]
+vncServer::Authenticated : Authenticated() done
+vncClientThread::run : authenticated connection
+vncBuffer::CheckBuffer : request local buffer[8294400]
+vncBuffer::CheckBuffer : fast blits detected - using DIBsection buffer
+vncBuffer::CheckBuffer : local buffer=8294400
+vncClientThread::run : sent pixel format to client
+vncClientUpdateThread::Init : init update thread
+vncClientUpdateThread::run_undetached : starting update thread
+vncClientUpdateThread::EnableUpdates : disable update thread
+vncClientUpdateThread::EnableUpdates : enable/disable synced
+vncClientThread::run : Tight found
+vncEncodeMgr::SetEncoding : Tight encoder requested
+vncEncoder::SetTranslateFunction : settranslatefunction called
+vncEncoder::SetTranslateFunction : only 8, 16 or 32 bits supported remotely - 0 requested
+vncEncoder::SetTranslateFunction : settranslatefunction called
+vncEncoder::SetTranslateFunction : no translation required
+vncDesktopThread::run_undetached : Wait for viewer init 
+vncEncodeMgr::CheckBuffer : request client buffer[264781]
+vncClientThread::run : ZRLE found 
+vncClientThread::run : image quality level requested: 6
+vncClientThread::run : LastRect protocol extension enabled
+vncClientThread::run : PointerPos protocol extension enabled
+vncClientThread::run : Full-color cursor shape updates enabled
+vncClientUpdateThread::EnableUpdates : enable update thread
+vncClientUpdateThread::EnableUpdates : enable/disable synced
+vncDesktopThread::run_undetached : Wait for viewer init 
+vncDesktopThread::run_undetached : Hook changed 
+Wed Nov 29 20:13:46 2023
+VSocket::ReadExact : zero bytes read2
+desktopSelector::SelectHDESK : SelectHDESK to Default (bc) from bc
+vncClientThread::run : client disconnected : 192.168.0.104 (1)
+vncClientUpdateThread::Kill : kill update thread
+ --Cannot create a file when that file already exists.
+vncClientUpdateThread::run_undetached : stopping update thread
+vncClientUpdateThread::~vncClientUpdateThread : update thread gone
+vncServer::RemoveClient : removing authorised client
+vncServer::RemoveClient : deleting desktop server
+vncDesktop::~vncDesktop : ~vncDesktop 
+vncDesktop::StopInitWindowthread : ~vncDesktop::Tell initwindowthread to close 
+vncDesktop::InitWindow : OOOOOOOOOOOO called wm_quit
+DesktopWndProc : WM_DESTROY
+ --Invalid window handle.
+vncDesktop::InitWindow : OOOOOOOOOOOO end dispatch
+vncDesktop::StopInitWindowthread : ~vncDesktop:: iniwindowthread proper closed 
+vncServer::KillAuthClients : KillAuthClients() done
+ --The requested resource is in use.
+vncDesktopThread::run_undetached : quitting desktop server thread
+vncDesktopThread::run_undetached : quitting desktop server thread:SetBlockInputState
+vncDesktopThread::run_undetached : quitting desktop server thread:ClearShiftKeys
+vncDesktopThread::run_undetached : quitting desktop server thread:g_DesktopThread_running=false
+vncDesktop::ShutdownInitWindowthread : ShutdownInitWindowthread 
+desktopSelector::SelectHDESK : SelectHDESK to Default (bc) from bc
+vncDesktopThread::run_undetached : quitting desktop server thread:m_desktop->Shutdown
+vncDesktop::ShutdownInitWindowthread : ShutdownInitWindowthread 
+desktopSelector::SelectHDESK : SelectHDESK to Default (bc) from bc
+vncDesktop::~vncDesktop : ~vncDesktop Shutdown()
+vncDesktop::~vncDesktop : ~vncDesktop m_lGridsList.clear
+Wed Nov 29 20:13:47 2023
+vncServer::RemoveClient : desktop deleted
+vncServer::RemoveClient : RemoveClient() done
+vncClient::~vncClient : ~vncClient() executing...
+vncClient::~vncClient : deleting socket
+VSocket::Close : closing socket
+Wed Nov 29 20:21:21 2023
+vncSockConnectThread::run_undetached : accepted connection from 192.168.0.104
+vncServer::AddClient : AddClient() started
+vncClient::vncClient : vncClient() executing...
+vncServer::AddClient : AddClient() done
+vncClientThread::run : client connected : 192.168.0.104 (1)
+vncClientThread::InitSocket : DSMPlugin Pointer to socket OK
+vncClientThread::InitVersion : Send protocolMsg
+vncClientThread::InitVersion : Send_OK
+vncClientThread::InitVersion : m_ms_logon set to falsevncClientThread::run : negotiated version
+Entered InitAuthenticate
+vncServer::VerifyHost : client 192.168.0.104 verifiedHost 0 prior to adjustment
+vncServer::VerifyHost : client 192.168.0.104 verifiedHost 0 after adjustment
+vncClientThread::CheckLoopBack : loopback connection attempted - client accepted
+password authenticationWed Nov 29 20:21:25 2023
+vncServer::VerifyHost : client 192.168.0.104 verifiedHost 0 prior to adjustment
+vncServer::VerifyHost : client 192.168.0.104 verifiedHost 0 after adjustment
+vncClientThread::InitAuthenticate : Leaving InitAuthenticate
+vncDesktop::Init : initialising desktop handler
+vncDesktopThread::run_undetached : Hook changed 1
+vncDesktopThread::run_undetached : Hook changed 2
+vncDesktop::KillScreenSaver : KillScreenSaver...
+Wed Nov 29 20:21:26 2023
+vncDesktop::Startup : InitVideo driver Called
+ --The requested resource is in use.
+vncDesktop::Startup : Driver option enabled 
+vncDesktop::InitVideoDriver : Driver option is enabled
+ --The requested resource is in use.
+vncDesktop::InitVideoDriver : Try ddengine
+vncDesktop::InitVideoDriver : Start Mirror driver
+vncDesktop::InitVideoDriver : Driver Used
+vncDesktop::InitVideoDriver : Shared memory mapped
+vncDesktop::Startup : Break log
+vncDesktop::InitBitmap : No driver used 
+vncDesktop::InitBitmap : bitmap dimensions are 1920 x 1080
+vncDesktop::InitBitmap : created memory bitmap
+vncDesktop::InitBitmap : got bitmap format
+vncDesktop::Startup : Removing real Dib buffer and replace by driver communication buffer
+vncDesktop::StartInitWindowthread : StartInitWindowthread 
+vncDesktop::StartInitWindowthread : StartInitWindowthread default desk
+vncDesktop::InitWindow : InitWindow called
+vncDesktop::InitWindow : InitWindow:OpenInputdesktop OK
+vncDesktop::InitWindow : InitWindow:SelectHDESK to Default (7d8) from bc
+DesktopWndProc : wmcreate  
+vncDesktop::InitWindow : OOOOOOOOOOOO load hookdll's
+vncDesktop::InitWindow : OOOOOOOOOOOO start dispatch
+ --The specified module could not be found.
+vncDesktop::StartInitWindowthread : StartInitWindowthread started
+vncBuffer::CheckBuffer : request local buffer[8294400]
+vncBuffer::CheckBuffer : fast blits detected - using DIBsection buffer
+vncBuffer::CheckBuffer : local buffer=8294400
+vncDesktop::SethookMechanism : Sethook_restart_wanted hook=0 driver=1 
+vncDesktop::SethookMechanism : Hookdll status changed 
+vncEncodeMgr::SetEncoding : raw encoder requested
+vncEncoder::SetTranslateFunction : settranslatefunction called
+vncEncoder::SetTranslateFunction : only 8, 16 or 32 bits supported remotely - 0 requested
+vncEncoder::SetTranslateFunction : settranslatefunction called
+vncEncoder::SetTranslateFunction : no translation required
+vncEncodeMgr::CheckBuffer : request client buffer[8294412]
+vncServer::Authenticated : Authenticated() done
+vncClientThread::run : authenticated connection
+vncBuffer::CheckBuffer : request local buffer[8294400]
+vncBuffer::CheckBuffer : fast blits detected - using DIBsection buffer
+vncBuffer::CheckBuffer : local buffer=8294400
+vncClientThread::run : sent pixel format to client
+vncClientUpdateThread::Init : init update thread
+vncClientUpdateThread::run_undetached : starting update thread
+VSocket::ReadExact : zero bytes read2
+desktopSelector::SelectHDESK : SelectHDESK to Default (bc) from bc
+vncClientThread::run : client disconnected : 192.168.0.104 (1)
+vncClientUpdateThread::Kill : kill update thread
+ --Cannot create a file when that file already exists.
+vncClientUpdateThread::run_undetached : stopping update thread
+vncClientUpdateThread::~vncClientUpdateThread : update thread gone
+vncServer::RemoveClient : removing authorised client
+vncServer::RemoveClient : deleting desktop server
+vncDesktop::~vncDesktop : ~vncDesktop 
+vncDesktop::StopInitWindowthread : ~vncDesktop::Tell initwindowthread to close 
+vncDesktop::InitWindow : OOOOOOOOOOOO called wm_quit
+DesktopWndProc : WM_DESTROY
+vncDesktop::InitWindow : OOOOOOOOOOOO end dispatch
+vncDesktop::StopInitWindowthread : ~vncDesktop:: iniwindowthread proper closed 
+vncDesktopThread::run_undetached : Wait for viewer init 
+vncServer::KillAuthClients : KillAuthClients() done
+vncDesktopThread::run_undetached : quitting desktop server thread
+vncDesktopThread::run_undetached : quitting desktop server thread:SetBlockInputState
+vncDesktopThread::run_undetached : quitting desktop server thread:ClearShiftKeys
+vncDesktopThread::run_undetached : quitting desktop server thread:g_DesktopThread_running=false
+vncDesktop::ShutdownInitWindowthread : ShutdownInitWindowthread 
+desktopSelector::SelectHDESK : SelectHDESK to Default (bc) from bc
+vncDesktopThread::run_undetached : quitting desktop server thread:m_desktop->Shutdown
+vncDesktop::ShutdownInitWindowthread : ShutdownInitWindowthread 
+desktopSelector::SelectHDESK : SelectHDESK to Default (bc) from bc
+vncDesktop::~vncDesktop : ~vncDesktop Shutdown()
+vncDesktop::~vncDesktop : ~vncDesktop m_lGridsList.clear
+Wed Nov 29 20:21:27 2023
+vncServer::RemoveClient : desktop deleted
+vncServer::RemoveClient : RemoveClient() done
+vncClient::~vncClient : ~vncClient() executing...
+vncClient::~vncClient : deleting socket
+VSocket::Close : closing socket
+Wed Nov 29 20:21:46 2023
+vncSockConnectThread::run_undetached : accepted connection from 192.168.0.104
+vncServer::AddClient : AddClient() started
+vncClient::vncClient : vncClient() executing...
+vncServer::AddClient : AddClient() done
+vncClientThread::run : client connected : 192.168.0.104 (1)
+vncClientThread::InitSocket : DSMPlugin Pointer to socket OK
+vncClientThread::InitVersion : Send protocolMsg
+vncClientThread::InitVersion : Send_OK
+vncClientThread::InitVersion : m_ms_logon set to falsevncClientThread::run : negotiated version
+Entered InitAuthenticate
+vncServer::VerifyHost : client 192.168.0.104 verifiedHost 0 prior to adjustment
+vncServer::VerifyHost : client 192.168.0.104 verifiedHost 0 after adjustment
+vncClientThread::CheckLoopBack : loopback connection attempted - client accepted
+password authenticationWed Nov 29 20:21:55 2023
+View-only password authenticationvncServer::VerifyHost : client 192.168.0.104 verifiedHost 0 prior to adjustment
+vncServer::VerifyHost : client 192.168.0.104 verifiedHost 0 after adjustment
+vncClientThread::InitAuthenticate : Leaving InitAuthenticate
+vncDesktop::Init : initialising desktop handler
+vncDesktopThread::run_undetached : Hook changed 1
+vncDesktopThread::run_undetached : Hook changed 2
+vncDesktop::KillScreenSaver : KillScreenSaver...
+vncDesktop::Startup : InitVideo driver Called
+ --The requested resource is in use.
+vncDesktop::Startup : Driver option enabled 
+vncDesktop::InitVideoDriver : Driver option is enabled
+ --The requested resource is in use.
+vncDesktop::InitVideoDriver : Try ddengine
+vncDesktop::InitVideoDriver : Start Mirror driver
+vncDesktop::InitVideoDriver : Driver Used
+vncDesktop::InitVideoDriver : Shared memory mapped
+vncDesktop::Startup : Break log
+vncDesktop::InitBitmap : No driver used 
+vncDesktop::InitBitmap : bitmap dimensions are 1920 x 1080
+vncDesktop::InitBitmap : created memory bitmap
+vncDesktop::InitBitmap : got bitmap format
+vncDesktop::Startup : Removing real Dib buffer and replace by driver communication buffer
+vncDesktop::StartInitWindowthread : StartInitWindowthread 
+vncDesktop::StartInitWindowthread : StartInitWindowthread default desk
+vncDesktop::InitWindow : InitWindow called
+vncDesktop::InitWindow : InitWindow:OpenInputdesktop OK
+vncDesktop::InitWindow : InitWindow:SelectHDESK to Default (7cc) from bc
+DesktopWndProc : wmcreate  
+vncDesktop::InitWindow : OOOOOOOOOOOO load hookdll's
+vncDesktop::InitWindow : OOOOOOOOOOOO start dispatch
+ --The specified module could not be found.
+vncDesktop::StartInitWindowthread : StartInitWindowthread started
+vncBuffer::CheckBuffer : request local buffer[8294400]
+vncBuffer::CheckBuffer : fast blits detected - using DIBsection buffer
+vncBuffer::CheckBuffer : local buffer=8294400
+vncDesktop::SethookMechanism : Sethook_restart_wanted hook=0 driver=1 
+vncDesktop::SethookMechanism : Hookdll status changed 
+vncEncodeMgr::SetEncoding : raw encoder requested
+vncEncoder::SetTranslateFunction : settranslatefunction called
+vncEncoder::SetTranslateFunction : only 8, 16 or 32 bits supported remotely - 0 requested
+vncEncoder::SetTranslateFunction : settranslatefunction called
+vncEncoder::SetTranslateFunction : no translation required
+vncEncodeMgr::CheckBuffer : request client buffer[8294412]
+vncServer::Authenticated : Authenticated() done
+vncClientThread::run : authenticated connection
+vncBuffer::CheckBuffer : request local buffer[8294400]
+vncBuffer::CheckBuffer : fast blits detected - using DIBsection buffer
+vncBuffer::CheckBuffer : local buffer=8294400
+vncClientThread::run : sent pixel format to client
+vncClientUpdateThread::Init : init update thread
+vncClientUpdateThread::run_undetached : starting update thread
+vncClientUpdateThread::EnableUpdates : disable update thread
+vncClientUpdateThread::EnableUpdates : enable/disable synced
+vncEncodeMgr::SetClientFormat : SetClientFormat called
+vncEncoder::SetTranslateFunction : settranslatefunction called
+vncEncoder::SetTranslateFunction : no translation required
+vncClientUpdateThread::EnableUpdates : enable update thread
+vncClientUpdateThread::EnableUpdates : enable/disable synced
+vncClientUpdateThread::EnableUpdates : disable update thread
+vncClientUpdateThread::EnableUpdates : enable/disable synced
+vncClientThread::run : Tight found
+vncEncodeMgr::SetEncoding : Tight encoder requested
+vncEncoder::SetTranslateFunction : settranslatefunction called
+vncEncoder::SetTranslateFunction : only 8, 16 or 32 bits supported remotely - 0 requested
+vncEncoder::SetTranslateFunction : settranslatefunction called
+vncEncoder::SetTranslateFunction : no translation required
+vncDesktopThread::run_undetached : Wait for viewer init 
+vncEncodeMgr::CheckBuffer : request client buffer[264781]
+vncClientThread::run : compression level requested: 1
+vncClientThread::run : image quality level requested: 6
+vncClientThread::run : X-style cursor shape updates enabled
+vncClientThread::run : Full-color cursor shape updates enabled
+vncClientThread::run : PointerPos protocol extension enabled
+vncClientThread::run : LastRect protocol extension enabled
+vncClientUpdateThread::EnableUpdates : enable update thread
+vncClientUpdateThread::EnableUpdates : enable/disable synced
+vncEncoder::GetRemotePalette : remote palette data requested
+Wed Nov 29 20:21:56 2023
+vncDesktopThread::run_undetached : Wait for viewer init 
+vncDesktopThread::run_undetached : Hook changed 
+Wed Nov 29 20:22:43 2023
+VSocket::ReadExact : zero bytes read2
+desktopSelector::SelectHDESK : SelectHDESK to Default (bc) from bc
+vncClientThread::run : client disconnected : 192.168.0.104 (1)
+Wed Nov 29 20:22:44 2023
+vncClientUpdateThread::Kill : kill update thread
+ --Cannot create a file when that file already exists.
+vncClientUpdateThread::run_undetached : stopping update thread
+vncClientUpdateThread::~vncClientUpdateThread : update thread gone
+vncServer::RemoveClient : removing authorised client
+vncServer::RemoveClient : deleting desktop server
+vncDesktop::~vncDesktop : ~vncDesktop 
+vncDesktop::StopInitWindowthread : ~vncDesktop::Tell initwindowthread to close 
+vncDesktop::InitWindow : OOOOOOOOOOOO called wm_quit
+DesktopWndProc : WM_DESTROY
+vncDesktop::InitWindow : OOOOOOOOOOOO end dispatch
+vncDesktop::StopInitWindowthread : ~vncDesktop:: iniwindowthread proper closed 
+vncServer::KillAuthClients : KillAuthClients() done
+ --The requested resource is in use.
+vncDesktopThread::run_undetached : quitting desktop server thread
+vncDesktopThread::run_undetached : quitting desktop server thread:SetBlockInputState
+vncDesktopThread::run_undetached : quitting desktop server thread:ClearShiftKeys
+vncDesktopThread::run_undetached : quitting desktop server thread:g_DesktopThread_running=false
+vncDesktop::ShutdownInitWindowthread : ShutdownInitWindowthread 
+desktopSelector::SelectHDESK : SelectHDESK to Default (bc) from bc
+vncDesktopThread::run_undetached : quitting desktop server thread:m_desktop->Shutdown
+vncDesktop::ShutdownInitWindowthread : ShutdownInitWindowthread 
+desktopSelector::SelectHDESK : SelectHDESK to Default (bc) from bc
+vncDesktop::~vncDesktop : ~vncDesktop Shutdown()
+vncDesktop::~vncDesktop : ~vncDesktop m_lGridsList.clear
+Wed Nov 29 20:22:45 2023
+vncServer::RemoveClient : desktop deleted
+vncServer::RemoveClient : RemoveClient() done
+vncClient::~vncClient : ~vncClient() executing...
+vncClient::~vncClient : deleting socket
+VSocket::Close : closing socket
+Wed Nov 29 20:22:59 2023
+vncSockConnectThread::run_undetached : accepted connection from 192.168.0.104
+vncServer::AddClient : AddClient() started
+vncClient::vncClient : vncClient() executing...
+vncServer::AddClient : AddClient() done
+vncClientThread::run : client connected : 192.168.0.104 (1)
+vncClientThread::InitSocket : DSMPlugin Pointer to socket OK
+vncClientThread::InitVersion : Send protocolMsg
+vncClientThread::InitVersion : Send_OK
+vncClientThread::InitVersion : m_ms_logon set to falsevncClientThread::run : negotiated version
+Entered InitAuthenticate
+vncServer::VerifyHost : client 192.168.0.104 verifiedHost 0 prior to adjustment
+vncServer::VerifyHost : client 192.168.0.104 verifiedHost 0 after adjustment
+vncClientThread::CheckLoopBack : loopback connection attempted - client accepted
+password authenticationWed Nov 29 20:23:03 2023
+vncServer::VerifyHost : client 192.168.0.104 verifiedHost 0 prior to adjustment
+vncServer::VerifyHost : client 192.168.0.104 verifiedHost 0 after adjustment
+vncClientThread::InitAuthenticate : Leaving InitAuthenticate
+vncDesktop::Init : initialising desktop handler
+vncDesktopThread::run_undetached : Hook changed 1
+vncDesktopThread::run_undetached : Hook changed 2
+vncDesktop::KillScreenSaver : KillScreenSaver...
+Wed Nov 29 20:23:04 2023
+vncDesktop::Startup : InitVideo driver Called
+ --The requested resource is in use.
+vncDesktop::Startup : Driver option enabled 
+vncDesktop::InitVideoDriver : Driver option is enabled
+ --The requested resource is in use.
+vncDesktop::InitVideoDriver : Try ddengine
+vncDesktop::InitVideoDriver : Start Mirror driver
+vncDesktop::InitVideoDriver : Driver Used
+vncDesktop::InitVideoDriver : Shared memory mapped
+vncDesktop::Startup : Break log
+vncDesktop::InitBitmap : No driver used 
+vncDesktop::InitBitmap : bitmap dimensions are 1920 x 1080
+vncDesktop::InitBitmap : created memory bitmap
+vncDesktop::InitBitmap : got bitmap format
+vncDesktop::Startup : Removing real Dib buffer and replace by driver communication buffer
+vncDesktop::StartInitWindowthread : StartInitWindowthread 
+vncDesktop::StartInitWindowthread : StartInitWindowthread default desk
+vncDesktop::InitWindow : InitWindow called
+vncDesktop::InitWindow : InitWindow:OpenInputdesktop OK
+vncDesktop::InitWindow : InitWindow:SelectHDESK to Default (6a4) from bc
+DesktopWndProc : wmcreate  
+vncDesktop::InitWindow : OOOOOOOOOOOO load hookdll's
+vncDesktop::InitWindow : OOOOOOOOOOOO start dispatch
+ --The specified module could not be found.
+vncDesktop::StartInitWindowthread : StartInitWindowthread started
+vncBuffer::CheckBuffer : request local buffer[8294400]
+vncBuffer::CheckBuffer : fast blits detected - using DIBsection buffer
+vncBuffer::CheckBuffer : local buffer=8294400
+vncDesktop::SethookMechanism : Sethook_restart_wanted hook=0 driver=1 
+vncDesktop::SethookMechanism : Hookdll status changed 
+vncEncodeMgr::SetEncoding : raw encoder requested
+vncEncoder::SetTranslateFunction : settranslatefunction called
+vncEncoder::SetTranslateFunction : only 8, 16 or 32 bits supported remotely - 0 requested
+vncEncoder::SetTranslateFunction : settranslatefunction called
+vncEncoder::SetTranslateFunction : no translation required
+vncEncodeMgr::CheckBuffer : request client buffer[8294412]
+vncServer::Authenticated : Authenticated() done
+vncClientThread::run : authenticated connection
+vncBuffer::CheckBuffer : request local buffer[8294400]
+vncBuffer::CheckBuffer : fast blits detected - using DIBsection buffer
+vncBuffer::CheckBuffer : local buffer=8294400
+vncClientThread::run : sent pixel format to client
+vncClientUpdateThread::Init : init update thread
+vncClientUpdateThread::run_undetached : starting update thread
+vncClientUpdateThread::EnableUpdates : disable update thread
+vncClientUpdateThread::EnableUpdates : enable/disable synced
+vncEncodeMgr::SetClientFormat : SetClientFormat called
+vncEncoder::SetTranslateFunction : settranslatefunction called
+vncEncoder::SetTranslateFunction : no translation required
+vncClientUpdateThread::EnableUpdates : enable update thread
+vncClientUpdateThread::EnableUpdates : enable/disable synced
+vncClientUpdateThread::EnableUpdates : disable update thread
+vncClientUpdateThread::EnableUpdates : enable/disable synced
+vncClientThread::run : Tight found
+vncEncodeMgr::SetEncoding : Tight encoder requested
+vncEncoder::SetTranslateFunction : settranslatefunction called
+vncEncoder::SetTranslateFunction : only 8, 16 or 32 bits supported remotely - 0 requested
+vncEncoder::SetTranslateFunction : settranslatefunction called
+vncEncoder::SetTranslateFunction : no translation required
+vncDesktopThread::run_undetached : Wait for viewer init 
+vncEncodeMgr::CheckBuffer : request client buffer[264781]
+vncClientThread::run : compression level requested: 1
+vncClientThread::run : image quality level requested: 6
+vncClientThread::run : X-style cursor shape updates enabled
+vncClientThread::run : Full-color cursor shape updates enabled
+vncClientThread::run : PointerPos protocol extension enabled
+vncClientThread::run : LastRect protocol extension enabled
+vncClientUpdateThread::EnableUpdates : enable update thread
+vncClientUpdateThread::EnableUpdates : enable/disable synced
+vncEncoder::GetRemotePalette : remote palette data requested
+vncDesktopThread::run_undetached : Wait for viewer init 
+vncDesktopThread::run_undetached : Hook changed 
+Wed Nov 29 20:24:49 2023
+VSocket::ReadExact : zero bytes read2
+desktopSelector::SelectHDESK : SelectHDESK to Default (bc) from bc
+vncClientThread::run : client disconnected : 192.168.0.104 (1)
+vncClientUpdateThread::Kill : kill update thread
+ --Cannot create a file when that file already exists.
+vncClientUpdateThread::run_undetached : stopping update thread
+vncClientUpdateThread::~vncClientUpdateThread : update thread gone
+vncServer::RemoveClient : removing authorised client
+vncServer::RemoveClient : deleting desktop server
+vncDesktop::~vncDesktop : ~vncDesktop 
+vncDesktop::StopInitWindowthread : ~vncDesktop::Tell initwindowthread to close 
+vncDesktop::InitWindow : OOOOOOOOOOOO called wm_quit
+DesktopWndProc : WM_DESTROY
+vncServer::KillAuthClients : KillAuthClients() done
+ --The requested resource is in use.
+vncDesktop::InitWindow : OOOOOOOOOOOO end dispatch
+vncDesktop::StopInitWindowthread : ~vncDesktop:: iniwindowthread proper closed 
+vncDesktopThread::run_undetached : quitting desktop server thread
+vncDesktopThread::run_undetached : quitting desktop server thread:SetBlockInputState
+vncDesktopThread::run_undetached : quitting desktop server thread:ClearShiftKeys
+vncDesktopThread::run_undetached : quitting desktop server thread:g_DesktopThread_running=false
+vncDesktop::ShutdownInitWindowthread : ShutdownInitWindowthread 
+desktopSelector::SelectHDESK : SelectHDESK to Default (bc) from bc
+vncDesktopThread::run_undetached : quitting desktop server thread:m_desktop->Shutdown
+vncDesktop::ShutdownInitWindowthread : ShutdownInitWindowthread 
+desktopSelector::SelectHDESK : SelectHDESK to Default (bc) from bc
+vncDesktop::~vncDesktop : ~vncDesktop Shutdown()
+vncDesktop::~vncDesktop : ~vncDesktop m_lGridsList.clear
+Wed Nov 29 20:24:50 2023
+vncServer::RemoveClient : desktop deleted
+vncServer::RemoveClient : RemoveClient() done
+vncClient::~vncClient : ~vncClient() executing...
+vncClient::~vncClient : deleting socket
+VSocket::Close : closing socket
+Wed Nov 29 20:25:14 2023
+vncSockConnectThread::run_undetached : accepted connection from 192.168.0.104
+vncServer::AddClient : AddClient() started
+vncClient::vncClient : vncClient() executing...
+vncServer::AddClient : AddClient() done
+vncClientThread::run : client connected : 192.168.0.104 (1)
+vncClientThread::InitSocket : DSMPlugin Pointer to socket OK
+vncClientThread::InitVersion : Send protocolMsg
+vncClientThread::InitVersion : Send_OK
+vncClientThread::InitVersion : m_ms_logon set to falsevncClientThread::run : negotiated version
+Entered InitAuthenticate
+vncServer::VerifyHost : client 192.168.0.104 verifiedHost 0 prior to adjustment
+vncServer::VerifyHost : client 192.168.0.104 verifiedHost 0 after adjustment
+vncClientThread::CheckLoopBack : loopback connection attempted - client accepted
+password authenticationWed Nov 29 20:25:19 2023
+View-only password authenticationvncServer::VerifyHost : client 192.168.0.104 verifiedHost 0 prior to adjustment
+vncServer::VerifyHost : client 192.168.0.104 verifiedHost 0 after adjustment
+vncClientThread::InitAuthenticate : Leaving InitAuthenticate
+vncDesktop::Init : initialising desktop handler
+vncDesktopThread::run_undetached : Hook changed 1
+vncDesktopThread::run_undetached : Hook changed 2
+vncDesktop::KillScreenSaver : KillScreenSaver...
+Wed Nov 29 20:25:20 2023
+vncDesktop::Startup : InitVideo driver Called
+ --The requested resource is in use.
+vncDesktop::Startup : Driver option enabled 
+vncDesktop::InitVideoDriver : Driver option is enabled
+ --The requested resource is in use.
+vncDesktop::InitVideoDriver : Try ddengine
+vncDesktop::InitVideoDriver : Start Mirror driver
+vncDesktop::InitVideoDriver : Driver Used
+vncDesktop::InitVideoDriver : Shared memory mapped
+vncDesktop::Startup : Break log
+vncDesktop::InitBitmap : No driver used 
+vncDesktop::InitBitmap : bitmap dimensions are 1920 x 1080
+vncDesktop::InitBitmap : created memory bitmap
+vncDesktop::InitBitmap : got bitmap format
+vncDesktop::Startup : Removing real Dib buffer and replace by driver communication buffer
+vncDesktop::StartInitWindowthread : StartInitWindowthread 
+vncDesktop::StartInitWindowthread : StartInitWindowthread default desk
+vncDesktop::InitWindow : InitWindow called
+vncDesktop::InitWindow : InitWindow:OpenInputdesktop OK
+vncDesktop::InitWindow : InitWindow:SelectHDESK to Default (4bc) from bc
+DesktopWndProc : wmcreate  
+vncDesktop::InitWindow : OOOOOOOOOOOO load hookdll's
+vncDesktop::InitWindow : OOOOOOOOOOOO start dispatch
+ --The specified module could not be found.
+vncDesktop::StartInitWindowthread : StartInitWindowthread started
+vncBuffer::CheckBuffer : request local buffer[8294400]
+vncBuffer::CheckBuffer : fast blits detected - using DIBsection buffer
+vncBuffer::CheckBuffer : local buffer=8294400
+vncDesktop::SethookMechanism : Sethook_restart_wanted hook=0 driver=1 
+vncDesktop::SethookMechanism : Hookdll status changed 
+vncEncodeMgr::SetEncoding : raw encoder requested
+vncEncoder::SetTranslateFunction : settranslatefunction called
+vncEncoder::SetTranslateFunction : only 8, 16 or 32 bits supported remotely - 0 requested
+vncEncoder::SetTranslateFunction : settranslatefunction called
+vncEncoder::SetTranslateFunction : no translation required
+vncEncodeMgr::CheckBuffer : request client buffer[8294412]
+vncServer::Authenticated : Authenticated() done
+vncClientThread::run : authenticated connection
+vncBuffer::CheckBuffer : request local buffer[8294400]
+vncBuffer::CheckBuffer : fast blits detected - using DIBsection buffer
+vncBuffer::CheckBuffer : local buffer=8294400
+vncClientThread::run : sent pixel format to client
+vncClientUpdateThread::Init : init update thread
+vncClientUpdateThread::run_undetached : starting update thread
+vncClientUpdateThread::EnableUpdates : disable update thread
+vncClientUpdateThread::EnableUpdates : enable/disable synced
+vncEncodeMgr::SetClientFormat : SetClientFormat called
+vncEncoder::SetTranslateFunction : settranslatefunction called
+vncEncoder::SetTranslateFunction : no translation required
+vncClientUpdateThread::EnableUpdates : enable update thread
+vncClientUpdateThread::EnableUpdates : enable/disable synced
+vncClientUpdateThread::EnableUpdates : disable update thread
+vncClientUpdateThread::EnableUpdates : enable/disable synced
+vncClientThread::run : Tight found
+vncEncodeMgr::SetEncoding : Tight encoder requested
+vncEncoder::SetTranslateFunction : settranslatefunction called
+vncEncoder::SetTranslateFunction : only 8, 16 or 32 bits supported remotely - 0 requested
+vncEncoder::SetTranslateFunction : settranslatefunction called
+vncEncoder::SetTranslateFunction : no translation required
+vncDesktopThread::run_undetached : Wait for viewer init 
+vncEncodeMgr::CheckBuffer : request client buffer[264781]
+vncClientThread::run : compression level requested: 1
+vncClientThread::run : image quality level requested: 6
+vncClientThread::run : X-style cursor shape updates enabled
+vncClientThread::run : Full-color cursor shape updates enabled
+vncClientThread::run : PointerPos protocol extension enabled
+vncClientThread::run : LastRect protocol extension enabled
+vncClientUpdateThread::EnableUpdates : enable update thread
+vncClientUpdateThread::EnableUpdates : enable/disable synced
+vncEncoder::GetRemotePalette : remote palette data requested
+vncDesktopThread::run_undetached : Wait for viewer init 
+vncDesktopThread::run_undetached : Hook changed 
+Wed Nov 29 20:25:39 2023
+VSocket::ReadExact : zero bytes read2
+desktopSelector::SelectHDESK : SelectHDESK to Default (bc) from bc
+vncClientThread::run : client disconnected : 192.168.0.104 (1)
+vncClientUpdateThread::Kill : kill update thread
+ --Cannot create a file when that file already exists.
+vncClientUpdateThread::run_undetached : stopping update thread
+vncClientUpdateThread::~vncClientUpdateThread : update thread gone
+vncServer::RemoveClient : removing authorised client
+vncServer::RemoveClient : deleting desktop server
+vncDesktop::~vncDesktop : ~vncDesktop 
+vncDesktop::StopInitWindowthread : ~vncDesktop::Tell initwindowthread to close 
+vncDesktop::InitWindow : OOOOOOOOOOOO called wm_quit
+DesktopWndProc : WM_DESTROY
+vncDesktop::InitWindow : OOOOOOOOOOOO end dispatch
+vncDesktop::StopInitWindowthread : ~vncDesktop:: iniwindowthread proper closed 
+vncServer::KillAuthClients : KillAuthClients() done
+ --The requested resource is in use.
+vncDesktopThread::run_undetached : quitting desktop server thread
+vncDesktopThread::run_undetached : quitting desktop server thread:SetBlockInputState
+vncDesktopThread::run_undetached : quitting desktop server thread:ClearShiftKeys
+vncDesktopThread::run_undetached : quitting desktop server thread:g_DesktopThread_running=false
+vncDesktop::ShutdownInitWindowthread : ShutdownInitWindowthread 
+desktopSelector::SelectHDESK : SelectHDESK to Default (bc) from bc
+vncDesktopThread::run_undetached : quitting desktop server thread:m_desktop->Shutdown
+vncDesktop::ShutdownInitWindowthread : ShutdownInitWindowthread 
+desktopSelector::SelectHDESK : SelectHDESK to Default (bc) from bc
+vncDesktop::~vncDesktop : ~vncDesktop Shutdown()
+vncDesktop::~vncDesktop : ~vncDesktop m_lGridsList.clear
+Wed Nov 29 20:25:40 2023
+vncServer::RemoveClient : desktop deleted
+vncServer::RemoveClient : RemoveClient() done
+vncClient::~vncClient : ~vncClient() executing...
+vncClient::~vncClient : deleting socket
+VSocket::Close : closing socket
+Wed Nov 29 20:47:26 2023
+vncSockConnectThread::run_undetached : accepted connection from 192.168.0.100
+vncServer::AddClient : AddClient() started
+vncClient::vncClient : vncClient() executing...
+vncServer::AddClient : AddClient() done
+vncClientThread::run : client connected : 192.168.0.100 (1)
+vncClientThread::InitSocket : DSMPlugin Pointer to socket OK
+vncClientThread::InitVersion : Send protocolMsg
+vncClientThread::InitVersion : Send_OK
+vncClientThread::InitVersion : m_ms_logon set to falsevncClientThread::run : negotiated version
+Entered InitAuthenticate
+vncServer::VerifyHost : client 192.168.0.100 verifiedHost 0 prior to adjustment
+vncServer::VerifyHost : client 192.168.0.100 verifiedHost 0 after adjustment
+password authenticationWed Nov 29 20:47:48 2023
+View-only password authenticationvncServer::VerifyHost : client 192.168.0.100 verifiedHost 0 prior to adjustment
+vncServer::VerifyHost : client 192.168.0.100 verifiedHost 0 after adjustment
+vncClientThread::InitAuthenticate : Leaving InitAuthenticate
+vncDesktop::Init : initialising desktop handler
+vncDesktopThread::run_undetached : Hook changed 1
+vncDesktopThread::run_undetached : Hook changed 2
+vncDesktop::KillScreenSaver : KillScreenSaver...
+Wed Nov 29 20:47:49 2023
+vncDesktop::Startup : InitVideo driver Called
+ --The requested resource is in use.
+vncDesktop::Startup : Driver option enabled 
+vncDesktop::InitVideoDriver : Driver option is enabled
+ --The requested resource is in use.
+vncDesktop::InitVideoDriver : Try ddengine
+vncDesktop::InitVideoDriver : Start Mirror driver
+vncDesktop::InitVideoDriver : Driver Used
+vncDesktop::InitVideoDriver : Shared memory mapped
+vncDesktop::Startup : Break log
+vncDesktop::InitBitmap : No driver used 
+vncDesktop::InitBitmap : bitmap dimensions are 1920 x 1080
+vncDesktop::InitBitmap : created memory bitmap
+vncDesktop::InitBitmap : got bitmap format
+vncDesktop::Startup : Removing real Dib buffer and replace by driver communication buffer
+vncDesktop::StartInitWindowthread : StartInitWindowthread 
+vncDesktop::StartInitWindowthread : StartInitWindowthread default desk
+vncDesktop::InitWindow : InitWindow called
+vncDesktop::InitWindow : InitWindow:OpenInputdesktop OK
+vncDesktop::InitWindow : InitWindow:SelectHDESK to Default (644) from bc
+DesktopWndProc : wmcreate  
+vncDesktop::InitWindow : OOOOOOOOOOOO load hookdll's
+vncDesktop::InitWindow : OOOOOOOOOOOO start dispatch
+ --The specified module could not be found.
+vncDesktop::StartInitWindowthread : StartInitWindowthread started
+vncBuffer::CheckBuffer : request local buffer[8294400]
+vncBuffer::CheckBuffer : fast blits detected - using DIBsection buffer
+vncBuffer::CheckBuffer : local buffer=8294400
+vncDesktop::SethookMechanism : Sethook_restart_wanted hook=0 driver=1 
+vncDesktop::SethookMechanism : Hookdll status changed 
+vncEncodeMgr::SetEncoding : raw encoder requested
+vncEncoder::SetTranslateFunction : settranslatefunction called
+vncEncoder::SetTranslateFunction : only 8, 16 or 32 bits supported remotely - 0 requested
+vncEncoder::SetTranslateFunction : settranslatefunction called
+vncEncoder::SetTranslateFunction : no translation required
+vncEncodeMgr::CheckBuffer : request client buffer[8294412]
+vncServer::Authenticated : Authenticated() done
+vncClientThread::run : authenticated connection
+vncBuffer::CheckBuffer : request local buffer[8294400]
+vncBuffer::CheckBuffer : fast blits detected - using DIBsection buffer
+vncBuffer::CheckBuffer : local buffer=8294400
+vncClientThread::run : sent pixel format to client
+vncClientUpdateThread::Init : init update thread
+vncClientUpdateThread::run_undetached : starting update thread
+vncClientUpdateThread::EnableUpdates : disable update thread
+vncClientUpdateThread::EnableUpdates : enable/disable synced
+vncEncodeMgr::SetClientFormat : SetClientFormat called
+vncEncoder::SetTranslateFunction : settranslatefunction called
+vncEncoder::SetTranslateFunction : triple LUT used
+vncClientUpdateThread::EnableUpdates : enable update thread
+vncClientUpdateThread::EnableUpdates : enable/disable synced
+vncClientUpdateThread::EnableUpdates : disable update thread
+vncClientUpdateThread::EnableUpdates : enable/disable synced
+vncClientThread::run : Tight found
+vncEncodeMgr::SetEncoding : Tight encoder requested
+vncEncoder::SetTranslateFunction : settranslatefunction called
+vncEncoder::SetTranslateFunction : only 8, 16 or 32 bits supported remotely - 0 requested
+vncEncoder::SetTranslateFunction : settranslatefunction called
+vncEncoder::SetTranslateFunction : triple LUT used
+vncDesktopThread::run_undetached : Wait for viewer init 
+vncEncodeMgr::CheckBuffer : request client buffer[264781]
+vncClientThread::run : ZRLE found 
+vncClientThread::run : compression level requested: 0
+vncClientThread::run : image quality level requested: 5
+vncClientThread::run : LastRect protocol extension enabled
+vncClientUpdateThread::EnableUpdates : enable update thread
+vncClientUpdateThread::EnableUpdates : enable/disable synced
+vncEncoder::GetRemotePalette : remote palette data requested
+vncDesktopThread::run_undetached : Wait for viewer init 
+vncDesktopThread::run_undetached : Hook changed 
+Wed Nov 29 20:48:08 2023
+VSocket::ReadExact : zero bytes read2
+desktopSelector::SelectHDESK : SelectHDESK to Default (bc) from bc
+vncClientThread::run : client disconnected : 192.168.0.100 (1)
+vncClientUpdateThread::Kill : kill update thread
+ --Cannot create a file when that file already exists.
+vncClientUpdateThread::run_undetached : stopping update thread
+vncClientUpdateThread::~vncClientUpdateThread : update thread gone
+vncServer::RemoveClient : removing authorised client
+vncServer::RemoveClient : deleting desktop server
+vncDesktop::~vncDesktop : ~vncDesktop 
+vncDesktop::StopInitWindowthread : ~vncDesktop::Tell initwindowthread to close 
+vncDesktop::InitWindow : OOOOOOOOOOOO called wm_quit
+DesktopWndProc : WM_DESTROY
+vncServer::KillAuthClients : KillAuthClients() done
+ --The requested resource is in use.
+vncDesktopThread::run_undetached : quitting desktop server thread
+vncDesktopThread::run_undetached : quitting desktop server thread:SetBlockInputState
+vncDesktopThread::run_undetached : quitting desktop server thread:ClearShiftKeys
+vncDesktopThread::run_undetached : quitting desktop server thread:g_DesktopThread_running=false
+vncDesktop::ShutdownInitWindowthread : ShutdownInitWindowthread 
+vncDesktop::InitWindow : OOOOOOOOOOOO end dispatch
+vncDesktop::StopInitWindowthread : ~vncDesktop:: iniwindowthread proper closed 
+desktopSelector::SelectHDESK : SelectHDESK to Default (bc) from bc
+vncDesktopThread::run_undetached : quitting desktop server thread:m_desktop->Shutdown
+vncDesktop::ShutdownInitWindowthread : ShutdownInitWindowthread 
+desktopSelector::SelectHDESK : SelectHDESK to Default (bc) from bc
+vncDesktop::~vncDesktop : ~vncDesktop Shutdown()
+vncDesktop::~vncDesktop : ~vncDesktop m_lGridsList.clear
+Wed Nov 29 20:48:09 2023
+vncServer::RemoveClient : desktop deleted
+vncServer::RemoveClient : RemoveClient() done
+vncClient::~vncClient : ~vncClient() executing...
+vncClient::~vncClient : deleting socket
+VSocket::Close : closing socket
+Wed Nov 29 20:48:14 2023
+vncSockConnectThread::run_undetached : accepted connection from 192.168.0.100
+vncServer::AddClient : AddClient() started
+vncClient::vncClient : vncClient() executing...
+vncServer::AddClient : AddClient() done
+vncClientThread::run : client connected : 192.168.0.100 (1)
+vncClientThread::InitSocket : DSMPlugin Pointer to socket OK
+vncClientThread::InitVersion : Send protocolMsg
+vncClientThread::InitVersion : Send_OK
+vncClientThread::InitVersion : m_ms_logon set to falsevncClientThread::run : negotiated version
+Entered InitAuthenticate
+vncServer::VerifyHost : client 192.168.0.100 verifiedHost 0 prior to adjustment
+vncServer::VerifyHost : client 192.168.0.100 verifiedHost 0 after adjustment
+password authenticationWed Nov 29 20:48:27 2023
+vncServer::VerifyHost : client 192.168.0.100 verifiedHost 0 prior to adjustment
+vncServer::VerifyHost : client 192.168.0.100 verifiedHost 0 after adjustment
+vncClientThread::InitAuthenticate : Leaving InitAuthenticate
+vncDesktop::Init : initialising desktop handler
+vncDesktopThread::run_undetached : Hook changed 1
+vncDesktopThread::run_undetached : Hook changed 2
+vncDesktop::KillScreenSaver : KillScreenSaver...
+Wed Nov 29 20:48:28 2023
+vncDesktop::Startup : InitVideo driver Called
+ --The requested resource is in use.
+vncDesktop::Startup : Driver option enabled 
+vncDesktop::InitVideoDriver : Driver option is enabled
+ --The requested resource is in use.
+vncDesktop::InitVideoDriver : Try ddengine
+vncDesktop::InitVideoDriver : Start Mirror driver
+vncDesktop::InitVideoDriver : Driver Used
+vncDesktop::InitVideoDriver : Shared memory mapped
+vncDesktop::Startup : Break log
+vncDesktop::InitBitmap : No driver used 
+vncDesktop::InitBitmap : bitmap dimensions are 1920 x 1080
+vncDesktop::InitBitmap : created memory bitmap
+vncDesktop::InitBitmap : got bitmap format
+vncDesktop::Startup : Removing real Dib buffer and replace by driver communication buffer
+vncDesktop::StartInitWindowthread : StartInitWindowthread 
+vncDesktop::StartInitWindowthread : StartInitWindowthread default desk
+vncDesktop::InitWindow : InitWindow called
+vncDesktop::InitWindow : InitWindow:OpenInputdesktop OK
+vncDesktop::InitWindow : InitWindow:SelectHDESK to Default (480) from bc
+DesktopWndProc : wmcreate  
+vncDesktop::InitWindow : OOOOOOOOOOOO load hookdll's
+vncDesktop::InitWindow : OOOOOOOOOOOO start dispatch
+ --The specified module could not be found.
+vncDesktop::StartInitWindowthread : StartInitWindowthread started
+vncBuffer::CheckBuffer : request local buffer[8294400]
+vncBuffer::CheckBuffer : fast blits detected - using DIBsection buffer
+vncBuffer::CheckBuffer : local buffer=8294400
+vncDesktop::SethookMechanism : Sethook_restart_wanted hook=0 driver=1 
+vncDesktop::SethookMechanism : Hookdll status changed 
+vncEncodeMgr::SetEncoding : raw encoder requested
+vncEncoder::SetTranslateFunction : settranslatefunction called
+vncEncoder::SetTranslateFunction : only 8, 16 or 32 bits supported remotely - 0 requested
+vncEncoder::SetTranslateFunction : settranslatefunction called
+vncEncoder::SetTranslateFunction : no translation required
+vncEncodeMgr::CheckBuffer : request client buffer[8294412]
+vncServer::Authenticated : Authenticated() done
+vncClientThread::run : authenticated connection
+vncBuffer::CheckBuffer : request local buffer[8294400]
+vncBuffer::CheckBuffer : fast blits detected - using DIBsection buffer
+vncBuffer::CheckBuffer : local buffer=8294400
+vncClientThread::run : sent pixel format to client
+vncClientUpdateThread::Init : init update thread
+vncClientUpdateThread::run_undetached : starting update thread
+vncClientUpdateThread::EnableUpdates : disable update thread
+vncClientUpdateThread::EnableUpdates : enable/disable synced
+vncEncodeMgr::SetClientFormat : SetClientFormat called
+vncEncoder::SetTranslateFunction : settranslatefunction called
+vncEncoder::SetTranslateFunction : triple LUT used
+vncClientUpdateThread::EnableUpdates : enable update thread
+vncClientUpdateThread::EnableUpdates : enable/disable synced
+vncClientUpdateThread::EnableUpdates : disable update thread
+vncClientUpdateThread::EnableUpdates : enable/disable synced
+vncClientThread::run : Tight found
+vncEncodeMgr::SetEncoding : Tight encoder requested
+vncEncoder::SetTranslateFunction : settranslatefunction called
+vncEncoder::SetTranslateFunction : only 8, 16 or 32 bits supported remotely - 0 requested
+vncEncoder::SetTranslateFunction : settranslatefunction called
+vncEncoder::SetTranslateFunction : triple LUT used
+vncEncodeMgr::CheckBuffer : request client buffer[264781]
+vncDesktopThread::run_undetached : Wait for viewer init 
+vncClientThread::run : ZRLE found 
+vncClientThread::run : compression level requested: 0
+vncClientThread::run : image quality level requested: 5
+vncClientThread::run : LastRect protocol extension enabled
+vncClientUpdateThread::EnableUpdates : enable update thread
+vncClientUpdateThread::EnableUpdates : enable/disable synced
+vncEncoder::GetRemotePalette : remote palette data requested
+vncDesktopThread::run_undetached : Wait for viewer init 
+vncDesktopThread::run_undetached : Hook changed 
+Wed Nov 29 20:50:05 2023
+VSocket::ReadExact : zero bytes read2
+desktopSelector::SelectHDESK : SelectHDESK to Default (bc) from bc
+vncClientThread::run : client disconnected : 192.168.0.100 (1)
+vncClientUpdateThread::Kill : kill update thread
+ --Cannot create a file when that file already exists.
+vncClientUpdateThread::run_undetached : stopping update thread
+vncClientUpdateThread::~vncClientUpdateThread : update thread gone
+vncServer::RemoveClient : removing authorised client
+vncServer::RemoveClient : deleting desktop server
+vncDesktop::~vncDesktop : ~vncDesktop 
+vncDesktop::StopInitWindowthread : ~vncDesktop::Tell initwindowthread to close 
+vncDesktop::InitWindow : OOOOOOOOOOOO called wm_quit
+DesktopWndProc : WM_DESTROY
+vncServer::KillAuthClients : KillAuthClients() done
+ --The requested resource is in use.
+vncDesktopThread::run_undetached : quitting desktop server thread
+vncDesktopThread::run_undetached : quitting desktop server thread:SetBlockInputState
+vncDesktopThread::run_undetached : quitting desktop server thread:ClearShiftKeys
+vncDesktopThread::run_undetached : quitting desktop server thread:g_DesktopThread_running=false
+vncDesktop::ShutdownInitWindowthread : ShutdownInitWindowthread 
+vncDesktop::InitWindow : OOOOOOOOOOOO end dispatch
+vncDesktop::StopInitWindowthread : ~vncDesktop:: iniwindowthread proper closed 
+desktopSelector::SelectHDESK : SelectHDESK to Default (bc) from bc
+vncDesktopThread::run_undetached : quitting desktop server thread:m_desktop->Shutdown
+vncDesktop::ShutdownInitWindowthread : ShutdownInitWindowthread 
+desktopSelector::SelectHDESK : SelectHDESK to Default (bc) from bc
+vncDesktop::~vncDesktop : ~vncDesktop Shutdown()
+vncDesktop::~vncDesktop : ~vncDesktop m_lGridsList.clear
+Wed Nov 29 20:50:06 2023
+vncServer::RemoveClient : desktop deleted
+vncServer::RemoveClient : RemoveClient() done
+vncClient::~vncClient : ~vncClient() executing...
+vncClient::~vncClient : deleting socket
+VSocket::Close : closing socket
+Wed Nov 29 21:04:28 2023
+vncPasswd::FromText::FromText : PASSWD : FromText called
+vncPasswd::FromText::FromText : PASSWD : FromText called
+vncServer::EnableConnections : SockConnect 1
+vncServer::EnableConnections : SockConnect 1
+Wed Nov 29 21:13:04 2023
+vncProperties::DialogProc : enddialog (CANCEL)
+vncProperties::ShowAdmin : dialog result = 2
+vncServer::SetAuthHosts : authhosts cleared
+vncServer::EnableConnections : SockConnect 1
+vncServer::EnableConnections : SockConnect 1
+vncServer::EnableConnections : SockConnect 1
+vncServer::EnableConnections : SockConnect 1
+Wed Nov 29 21:13:07 2023
+vncMenu::WndProc : KillAuthClients() ID_CLOSE 
+ --Invalid window handle.
+vncServer::KillAuthClients : KillAuthClients() done
+vncMenu::Shutdown : vncMenu::Shutdown: Close menu - Disconnect all - Shutdown server
+vncMenu::WndProc : vncMenu WM_CLOSE call - All cleanup done
+vncMenu::WndProc : quitting from WM_DESTROY
+vncServer::KillAuthClients : KillAuthClients() done
+ --Invalid window handle.
+vncMenu::~vncMenu : vncmenu killed
+ --Invalid window handle.
+WinVNCAppMain : ################## Closing Imp Thread
+ --The system cannot find the file specified.
+WinVNCAppMain : ################## SHUTING DOWN SERVER ####################
+vncServer::ShutdownServer : shutting down server object2
+VSocket::Shutdown : shutdown socket
+VSocket::Close : closing socket
+vncSockConnectThread::run_undetached : quitting socket connection thread
+ --A blocking operation was interrupted by a call to WSACancelBlockingCall.
+Wed Nov 29 21:13:09 2023
+VSocket::Close : closing socket
+ --No connection could be made because the target machine actively refused it.
+VSocket::Shutdown : shutdown socket
+vncHTTPConnectThread::run_undetached : quitting HTTP server thread
+ --A blocking operation was interrupted by a call to WSACancelBlockingCall.
+Wed Nov 29 21:13:11 2023
+VSocket::Close : closing socket
+ --No connection could be made because the target machine actively refused it.
+VSocket::Close : closing socket
+vncServer::KillAuthClients : KillAuthClients() done
+ --An operation was attempted on something that is not a socket.
+vncServer::KillUnauthClients : KillUnauthClients() done
+vncServer::ShutdownServer : ShutdownServer m_pDSMPlugin = NULL 

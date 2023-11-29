@@ -1,0 +1,27 @@
+28/11/2023 21:03:49	Connection received from 192.168.0.104
+28/11/2023 21:03:50	Client 192.168.0.104 disconnected (ViewOnly) (ID:1)
+28/11/2023 21:05:09	Connection received from 192.168.0.104
+28/11/2023 21:05:16	Password authentication accepted from 192.168.0.104 (ViewOnly) (ID:1)
+28/11/2023 21:05:22	Client 192.168.0.104 disconnected (ViewOnly) (ID:1)
+29/11/2023 19:27:25	Connection received from 192.168.0.100
+29/11/2023 19:28:29	Client 192.168.0.100 disconnected (ViewOnly) (ID:1)
+29/11/2023 19:28:34	Connection received from 192.168.0.100
+29/11/2023 19:38:26	Client 192.168.0.100 disconnected (Interactive) (ID:1)
+29/11/2023 19:38:42	Connection received from 192.168.0.100
+29/11/2023 19:38:46	Client 192.168.0.100 disconnected (Interactive) (ID:1)
+29/11/2023 20:12:16	Connection received from 192.168.0.104
+29/11/2023 20:12:52	Client 192.168.0.104 disconnected (Interactive) (ID:1)
+29/11/2023 20:13:05	Connection received from 192.168.0.104
+29/11/2023 20:13:46	Client 192.168.0.104 disconnected (Interactive) (ID:1)
+29/11/2023 20:21:25	Connection received from 192.168.0.104
+29/11/2023 20:21:26	Client 192.168.0.104 disconnected (Interactive) (ID:1)
+29/11/2023 20:21:55	Connection received from 192.168.0.104
+29/11/2023 20:22:44	Client 192.168.0.104 disconnected (ViewOnly) (ID:1)
+29/11/2023 20:23:03	Connection received from 192.168.0.104
+29/11/2023 20:24:49	Client 192.168.0.104 disconnected (Interactive) (ID:1)
+29/11/2023 20:25:19	Connection received from 192.168.0.104
+29/11/2023 20:25:39	Client 192.168.0.104 disconnected (ViewOnly) (ID:1)
+29/11/2023 20:47:48	Connection received from 192.168.0.100
+29/11/2023 20:48:08	Client 192.168.0.100 disconnected (ViewOnly) (ID:1)
+29/11/2023 20:48:27	Connection received from 192.168.0.100
+29/11/2023 20:50:05	Client 192.168.0.100 disconnected (Interactive) (ID:1)
